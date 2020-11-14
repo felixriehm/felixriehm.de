@@ -1,0 +1,52 @@
+{
+    "navbar-current-category" : "Webdesign",
+    "strap-pattern" : "symphony",
+	"itemTitle" : "Website",
+    "itemSubTitle-one" : "felixriehm.de",
+    "itemSubTitle-one" : "V2",
+    "itemTags" : "#Atomic design",
+    "itemDescription" : "<p>My first website was built with not a lot of experience. Hence, the coding wasn’t very pretty. After some time working as a Front-End Engineer I gained experience and skills and decided to redo my website from scratch. No doubt, it was necessary.</p><p>I wanted the look and feel of the website to be harmonious and calm. After some research, I came up with lightweight colors of green, yellow and brown, which work well in combination. For the background, I decided to use a paper-like pattern which can be associated with a natural feeling. I designed and build a pattern library with <a class=\"link\" href=\"https://www.sketchapp.com/\" target=\"_blank\">Sketch</a> to make the mapping to the final html/css patterns easier. The idea behind the design was to create structures which supported the harmonious feeling. While creating them I realized that all my structures are based on circles and decided to continue with that approach. I ended up with three different structures which are acting as a hero for the three templates: Homepage (about me), Category (social, webdesign and misc), and Item (items of a category). The heroes have the following inspiration:</p><p>Homepage: Based on the Chinese taijitu.<br>Category: Based on a flower.<br>Item: Based on a raising sun.</p><p>Furthermore, all category pages (+ homepage) do have a distinct identifying background pattern in their text strap below the hero:</p><p>Homepage: Sayagata (japanese)<br>Social: Seigaiha (chinese)<br>Webdesign: Symphony (classical-musical-like)<br>Misc: Washi (japanese)<br><br>(all patterns are provided by <a class=\"link\" href=\"https://www.toptal.com/designers/subtlepatterns/\" target=\"_blank\">topal.com – subtle patterns</a>. Background pattern: lightpaperfibers.)</p>All pages have a category selection at the end to give the user an action/direction after he consumed the content of a page. To give category and navbar buttons a mental link to the respective page their hover state have the same pattern as the strap background of that page. The category buttons are atop of an empty circle (inspired by Ensō, Zen). All hero images are svg so they scale well in a responsive environment.</p><p>The website was built with the principles of <a class=\"link\" href=\"http://atomicdesign.bradfrost.com/\" target=\"_blank\">Atomic Design</a> by Brad Frost and therefore I used <a class=\"link\" href=\"http://patternlab.io/\" target=\"_blank\">Pattern Lab</a> as building tool. For consistent typography, I used a modular scale which I calculated on <a class=\"link\" href=\"http://www.modularscale.com/\" target=\"_blank\">modularscale.com</a>. The project environment was set up with <a class=\"link\" href=\"https://gruntjs.com/\" target=\"_blank\">Grunt</a>. Further libraries I used are: <a class=\"link\" href=\"https://jquery.com/\" target=\"_blank\">jQuery</a>, <a class=\"link\" href=\"http://getbootstrap.com/\" target=\"_blank\">Bootstrap</a>, <a class=\"link\" href=\"http://lesscss.org/\" target=\"_blank\">less</a>, <a class=\"link\" href=\"http://kenwheeler.github.io/slick/\" target=\"_blank\">slick.js (image carousel)</a>, <a class=\"link\" href=\"https://greensock.com/\" target=\"_blank\">GreenSock (svg animations)</a>.</p>",
+    "itemBackUrl": "link.pages-web-and-design",
+    "carousel" : [
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_01.jpg",
+            "imageAltText": "website-v2_01.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_02.jpg",
+            "imageAltText": "website-v2_02.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_03.jpg",
+            "imageAltText": "website-v2_03.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_04.jpg",
+            "imageAltText": "website-v2_04.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_05.jpg",
+            "imageAltText": "website-v2_05.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_06.jpg",
+            "imageAltText": "website-v2_06.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_07.jpg",
+            "imageAltText": "website-v2_07.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_08.jpg",
+            "imageAltText": "website-v2_08.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_09.jpg",
+            "imageAltText": "website-v2_09.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/website-v2/website-v2_10.jpg",
+            "imageAltText": "website-v2_10.jpg"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "navbar-current-category" : "Webdesign",
+    "strap-pattern" : "symphony",
+	"itemTitle" : "Website",
+    "itemSubTitle-one" : "felixriehm.de",
+    "itemSubTitle-two" : "V1-Redesign",
+    "itemTags" : "#Skeleton CSS",
+    "itemBackUrl": "link.pages-web-and-design",
+    "itemDescription" : "<p>Sometime after I finished my first personal website I felt like that the look of it doesn’t fit the content and decided to give it another try. I kept the layout the same and took a photo from the lake of Constance which got used as background. The result is a more mature and professional look. For designing I used Adobe Photoshop and for coding I used Adobe Brackets.</p>",
+    "carousel" : [
+        {
+            "imageUrl" : "../../images/web-and-design/redesign/redesign_01.jpg",
+            "imageAltText": "redesign_01.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/redesign/redesign_02.jpg",
+            "imageAltText": "redesign_02.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/redesign/redesign_03.jpg",
+            "imageAltText": "redesign_03.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/redesign/redesign_04.jpg",
+            "imageAltText": "redesign_04.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/redesign/redesign_05.jpg",
+            "imageAltText": "redesign_05.jpg"
+        }
+    ]
+}

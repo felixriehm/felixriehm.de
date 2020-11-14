@@ -1,0 +1,222 @@
+{
+    "btnText" : "NAV1",
+    "avatarUrl" : "NAV1",
+    "primaryNav" : [
+        {
+            "btnText" : "About",
+            "linkHref": "link.pages-about",
+            "bg": "seigaiha-nav"
+
+        },
+        {
+            "btnText" : "Social",
+            "linkHref": "link.pages-social",
+            "bg": "sayagata-nav"
+        },
+        {
+            "btnText" : "Webdesign",
+            "linkHref": "link.pages-web-and-design",
+            "bg": "symphony-nav"
+        },
+        {
+            "btnText" : "Misc",
+            "linkHref": "link.pages-misc",
+            "bg": "washi-nav"
+        }
+    ],
+    "Bediengungslos" :
+        {
+            "description" : "Some fancy text about this topic"
+        },
+    "categoryItemsMobile" : [
+        {
+            "title" : "Title#1",
+            "subtitle-one" : "subtitle",
+            "subtitle-two": "subtitle",
+            "tags" : "#Tag",
+            "url" : "http://www.test1.de"
+        },
+        {
+            "title" : "Title#2",
+            "subtitle-one" : "subtitle",
+            "subtitle-two": "subtitle",
+            "tags" : "#Tag",
+            "url" : "http://www.test2.de"
+        },
+        {
+            "title" : "Title#3",
+            "subtitle-one" : "subtitle",
+            "subtitle-two": "subtitle",
+            "tags" : "#Tag",
+            "url" : "http://www.test3.de"
+        },
+        {
+            "title" : "Title#4",
+            "subtitle-one" : "subtitle",
+            "subtitle-two": "subtitle",
+            "tags" : "#Tag",
+            "url" : "http://www.test4.de"
+        },
+        {
+            "title" : "Title#5",
+            "subtitle-one" : "subtitle",
+            "subtitle-two": "subtitle",
+            "tags" : "#Tag",
+            "url" : "http://www.test5.de"
+        },
+        {
+            "title" : "Title#6",
+            "subtitle-one" : "subtitle",
+            "subtitle-two": "subtitle",
+            "tags" : "#Tag",
+            "url" : "http://www.test6.de"
+        }
+    ],
+    "categoryButtons" : [
+        {
+        "btnText": "About",
+        "btnUrl": "link.pages-about",
+        "bg": "seigaiha-btn"
+        },
+        {
+        "btnText": "Social",
+        "btnUrl": "link.pages-social",
+        "bg": "sayagata-btn"
+        },
+        {
+        "btnText": "Webdesign",
+        "btnUrl": "link.pages-web-and-design",
+        "bg": "symphony-btn"
+        },
+        {
+        "btnText": "Misc",
+        "btnUrl": "link.pages-misc",
+        "bg": "washi-btn"
+        }
+        ],
+    "categoryTitle" : "MISC",
+	"categoryItems" : {
+        "one": {
+            "title": "Title#1",
+            "subtitle-one": "subtitle",
+            "subtitle-two": "subtitle",
+            "tags": "#Tag",
+            "url" : "http://www.test1.de"
+        },
+        "two": {
+            "title": "Title#2",
+            "subtitle-one": "subtitle",
+            "subtitle-two": "subtitle",
+            "tags": "#Tag",
+            "url" : "http://www.test2.de"
+        },
+        "three": {
+            "title": "Title#3",
+            "subtitle-one": "subtitle",
+            "subtitle-two": "subtitle",
+            "tags": "#Tag",
+            "url" : "http://www.test3.de"
+        },
+        "four": {
+            "title": "Title#4",
+            "subtitle-one": "subtitle",
+            "subtitle-two": "subtitle",
+            "tags": "#Tag",
+            "url" : "http://www.test4.de"
+        },
+        "five": {
+            "title": "Title#5",
+            "subtitle-one": "subtitle",
+            "subtitle-two": "subtitle",
+            "tags": "#Tag",
+            "url" : "http://www.test5.de"
+        },
+        "six": {
+            "title": "Title#6",
+            "subtitle-one": "subtitle",
+            "subtitle-two": "subtitle",
+            "tags": "#Tag",
+            "url" : "http://www.test6.de"
+        },
+        "seven": {
+            "title": "",
+            "subtitle-one": "",
+            "subtitle-two": "",
+            "tags": ""
+        },
+        "eight": {
+            "title": "",
+            "subtitle-one": "",
+            "subtitle-two": "",
+            "tags": ""
+        }
+    },
+    "colOneLinks" : [
+        {
+            "linkText" : "Alice in Wonderland",
+            "linkUrl": "www.google.de"
+        },
+        {
+            "linkText" : "Moby Dick",
+            "linkUrl": "www.google.de"
+        }
+    ],
+    "colTwoLinks" : [
+        {
+            "linkText" : "Alice in Wonderland",
+            "linkUrl": "www.google.de"
+        },
+        {
+            "linkText" : "Moby Dick",
+            "linkUrl": "www.google.de"
+        }
+    ],
+    "colThreeLinks" : [
+        {
+            "linkText" : "Alice in Wonderland",
+            "linkUrl": "www.google.de"
+        },
+        {
+            "linkText" : "Moby Dick",
+            "linkUrl": "www.google.de"
+        }
+    ],
+    "colFourLinks" : [
+        {
+            "linkText" : "Alice in Wonderland",
+            "linkUrl": "www.google.de"
+        },
+        {
+            "linkText" : "Moby Dick",
+            "linkUrl": "www.google.de"
+        }
+    ],
+    "carousel" : [
+        {
+            "imageUrl" : "../../images/item_image_template_1.png",
+            "imageAltText": "text"
+        },
+        {
+            "imageUrl" : "../../images/item_image_template_2.png",
+            "imageAltText": "text"
+        },
+        {
+            "imageUrl" : "../../images/item_image_template_3.png",
+            "imageAltText": "text"
+        },
+        {
+            "imageUrl" : "../../images/item_image_template_4.png",
+            "imageAltText": "text"
+        },
+        {
+            "imageUrl" : "../../images/item_image_template_2.png",
+            "imageAltText": "text"
+        }
+    ],
+    "footerText": "Created by Felix Riehm with love ❤",
+    "strapTitle": "Description",
+    "strap-avatar" : {
+            "description" : "<p>Ich bin ein offener und unkonventioneller Mensch, der gerne neue Dinge entdeckt. Mein Informatikstudium (B. Sc.) habe ich erfolgreich am schönen Bodensee in Konstanz absolviert. Meine Motivation für die Informatik habe ich immer aus dem Spass des logischen und analytischen Denkens und dem Anwenden an realen Arduino Projekten gewonnen.</p><p>In meiner Freizeit beschäftige ich mich viel mit Musik, indem ich Cajon, Klavier, Schlagzeug oder Gitarre spiele und eigene Lieder schreibe. Ich bin begeisterter Fan von Lyrical Dance und interessiere mich leidenschaftlich für das Theater.</p>",
+            "avatarUrl" : "../../images/fpo_avatar.png"
+    }
+}
