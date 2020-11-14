@@ -1,0 +1,396 @@
+.bartop {
+    height: 15px;
+}
+
+.root{
+    background-color: rgba(229, 226, 211, 1);
+}
+
+.topic-name {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bottom-font-color {
+    color: rgba(255, 255, 255, 1);
+}
+
+.topic-section {
+    padding-top: 20px;
+}
+
+.site-color {
+    color: rgba(232, 99, 78, 1);
+    font-weight: bold;
+}
+
+.sub-topic {
+    width: 0 auto;
+}
+
+.sub-topic-header {
+    width: auto;
+    text-align: center;
+}
+
+.sub-topic-content {
+    text-align: center;
+}
+
+.showContent {
+    height: auto;
+}
+.list-item {
+    padding-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottom-content {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+
+.sub-topic-header-bottom {
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+.sub-topic-content-bottom {
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+.root-content {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat-y;
+    padding-bottom: 20px;
+    min-height: 100%;
+    position: relative;
+    margin: 0 auto;
+    background-size: contain;
+}
+
+.name {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 210px;
+}
+
+.profileimg{
+    display: none;
+    position: relative;
+    max-width: 80%;
+    margin: 0rem -30rem 0rem -30rem;
+}
+
+.bar-color {
+    background-color: rgba(117, 178, 199, 1);
+}
+
+.madeby {
+    margin: 15px auto;
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+.topic-header {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.topic-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.menu {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 21px;
+}
+
+.menu-item {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+    
+.menu-item:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+.ueber-mich {
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.hochschul-projekte {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.arduino-projekte {
+    font-size: 23px;
+    margin-left: 50px;
+}
+
+.software-projekte {
+    font-size: 17px;
+    margin-left: 27px;
+}
+
+.kontakt {
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.hamburger {
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+    background-image: url(../images/hamburger.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.active-hamburger{
+    background-image: url(../images/hamburger_abbruch.png);
+}
+
+.hamburger:hover{
+    transition: 200ms;
+    width: 50px;
+    height: 50px;
+}
+
+.imgcontainer{
+    text-align: center;
+}
+
+ul.imgcontainer{
+    list-style-type:none;
+    margin-left:0;
+    background-color:#eae9d4;
+    padding: 6px;
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+}
+ul.imgcontainer li{
+    display:inline-block;
+    position: relative;
+    z-index: 0;
+    margin:10px 5px 0 5px;
+}
+
+.line-header-bottom.bar{border-bottom: 3px solid rgba(255, 255, 255, 1);}
+.line-header-top.bar{border-bottom: 3px solid rgba(255, 255, 255, 1);}
+
+/* Larger than mobile */
+@media (min-width: 200px) {
+    .line-header-top{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 5px;
+        border-bottom: 3px solid rgba(198, 196, 173, 1);
+    }
+    .line-header-bottom{
+        width: 100%;
+        margin-top: -15px;
+        margin-bottom: 15px;
+        height: 5px;
+        border-bottom: 3px solid rgba(198, 196, 173, 1);
+    }
+
+    .item-text{
+        text-align: center;
+    }
+    .hideContent {
+        overflow: hidden;
+        height: 17em;
+    }
+    .show-more {
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 20px;
+    }
+    .maskimage {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+    .lines-container {
+     display: inline;
+    }
+    .header-container{
+        background-image: url();
+        text-align: center;
+        height: auto;
+        padding-top: 40px;
+    }
+    .profileimg{
+        display: inline;
+    }
+    .menu{
+        display: none;
+    }
+    
+    .hamburger {
+        display: inline;
+    }
+    .hamburger-ueber-mich {
+    font-size: 20px;
+    margin-left: 70px;
+    }
+
+    .hamburger-hochschul-projekte {
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    .hamburger-arduino-projekte {
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+    .hamburger-software-projekte {
+        font-size: 17px;
+        margin-left: 47px;
+    }
+
+    .hamburger-kontakt {
+        font-size: 27px;
+        margin-left: 80px;
+    }
+    .hamburger-menu {
+        position: fixed;
+        top: 70px;
+        z-index: 3;
+        left: 50%;
+        margin-left: -125px;
+        background-image: url(../images/menu.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 250px;
+        height: 250px;
+        padding-top: 30px;
+        display: none;
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    .line-header-top{
+        margin-top: 18px;
+        margin-bottom: 0px;
+        height: 5px;
+        border-bottom: 3px solid rgba(198, 196, 173, 1);
+        margin-right: 70px;
+    }
+
+    .line-header-bottom{
+        margin-top: 18px;
+        margin-bottom: 0px;
+        height: 5px;
+        border-bottom: 3px solid rgba(198, 196, 173, 1);
+        margin-left: 70px;
+    }
+
+    .item-text{
+        text-align: left;
+    }
+    .hideContent {
+        overflow: hidden;
+        height: 7em;
+    }
+    .show-more {
+        text-align: center;
+        padding-top: 24px;
+    }
+    .maskimage {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+    .lines-container {
+      display: flex;
+    }
+    .hamburger-ueber-mich {
+    font-size: 30px;
+    margin-left: 70px;
+    }
+
+    .hamburger-hochschul-projekte {
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+    .hamburger-arduino-projekte {
+        font-size: 23px;
+        margin-left: 80px;
+    }
+
+    .hamburger-software-projekte {
+        font-size: 17px;
+        margin-left: 57px;
+    }
+
+    .hamburger-kontakt {
+        font-size: 35px;
+        margin-left: 90px;
+    }
+    .hamburger-menu {
+        position: fixed;
+        top: 70px;;
+        left: 50%;
+        margin-left: -166px;
+        z-index: 3;
+        background-image: url(../images/menu.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 333px;
+        height: 326px;
+        padding-top: 40px;
+        display: none;
+    }
+}
+
+@media (min-width: 1250px) {
+    .header-container{
+        background-image: url(../images/header.png);
+        text-align: inherit;
+        height: 570px;
+        padding-top: 0px;
+    }
+    .profileimg{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .hamburger {
+        display: none;
+    }
+}
