@@ -1,0 +1,22 @@
+{
+  "HeroImage": "img/akt/esn_hero.png",
+  "TextImage": "img/akt/esn_hero.png",
+  "Titel": "ESN",
+  "Entries": [
+    {
+      "Titel" : "ESN Heidelberg",
+      "Descriptions": [
+        "The Erasmus Student Network is Europe's largest student organization with sections distributed all over Europe.",
+        "ESN is a non-profit organization operating on the local, national and international level.",
+        "As part of this network, ESN Heidelberg was established in 2014 to bring ESN's vision to the beautiful student city of Heidelberg.",
+        "ESN Heidelberg is therefore part of ESN Germany and part of ESN International. What we do: International studies can be a vibrant period of personal discovery and cultural understanding, and our mission is to facilitate and enrich this experience for all international students in Heidelberg. In this context, we organize events, trips, and volunteering opportunities to international students in Heidelberg, and provide help and guidance for newcomers. We strive to enrich international students' experience by helping to integrate them with locals and Heidelberg's international community.Who we are: Here in Heidelberg our team consists of German and international students living and promoting the ideas of integration and mobility to other German and international students. We work in close cooperation with the international office of the University of Heidelberg. As Local Erasmus Initiative (LEI) of the University of Heidelberg we are officially supported by the German Academic Exchange Service (DAAD)."
+      ],
+      "Images": [
+        "img/akt/esn/18738934_1590499857628969_6379641658796256201_o.jpg",
+        "img/akt/esn/18738968_1590502767628678_4832377377034090275_o.jpg",
+        "img/akt/esn/18879861_1590505724295049_8727635720394445096_o.jpg",
+        "img/akt/esn/19149289_1601009169911371_7955833065551333404_n.jpg"
+      ],
+      "DataSet": "esn-set"
+    }]
+}
