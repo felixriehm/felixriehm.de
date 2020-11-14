@@ -1,0 +1,53 @@
+.icon {
+  margin-right: 10px;
+  font-size: 4vw; }
+  @media (min-width: 576px) {
+    .icon {
+      font-size: 2vw; } }
+  @media (min-width: 992px) {
+    .icon {
+      font-size: 1.3vw; } }
+  @media (min-width: 1440px) {
+    .icon {
+      font-size: 1vw; } }
+
+body {
+  background-image: url("/img/lightpaperfibers_@2X.png");
+  background-repeat: repeat;
+  -webkit-font-smoothing: antialiased; }
+
+@font-face {
+  font-family: 'bernard';
+  src: url("/font/Bernhc.ttf") format("truetype"); }
+@font-face {
+  font-family: 'domine';
+  src: url("/font/Domine-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'domine';
+  src: url("/font/Domine-Bold.ttf") format("truetype");
+  font-weight: bold; }
+@font-face {
+  font-family: 'gill';
+  src: url("/font/GillSansStd.otf") format("opentype"); }
+@font-face {
+  font-family: 'gillcon';
+  src: url("/font/GillSansStd-Condensed.otf") format("opentype"); }
+@font-face {
+  font-family: 'croc';
+  src: url("/font/Crocodile-Feet.otf") format("opentype"); }
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle{
+  background: black;
+  color: white;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show > .btn-secondary.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+a {
+  color: inherit; }
+
+a:hover {
+  text-decoration: none;
+  color: inherit; }

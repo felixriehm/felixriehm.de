@@ -1,0 +1,62 @@
+{
+  "HeroImage": "img/akt/handarbeiten_hero.png",
+  "TextImage": "img/akt/handarbeiten_hero.png",
+  "Titel": "SONSTIGES",
+  "Entries": [
+    {
+      "Titel" : "LED Tisch",
+      "Descriptions": [
+        "The RetroDiscoTable consists of a surface which holds 48 tiles and a bottom part where a speaker is built in.",
+        "In every tile, there are 3 RGB-LEDs which can be individually controlled by a remote app.",
+        "The app uses Bluetooth to communicate with the Arduino board which is built into the bottom part of the table.",
+        "You can play songs and tunes which are stored on a sd card or you can start a program which automatically lights up the tiles in specific patterns.",
+        "If you want to go for a more interactive way you can play a game (e.g. snake) or you can draw a picture by selecting color and tile.",
+        "I developed two versions of the app. One that has the logic code on the Arduino board (instructions get executed faster but is harder to debug, app sends start/stop commands) and one that has the logic code in the app (slower instructions execution but easier to debug, app sends tile on/off commands).</p>",
+        "",
+        ""
+      ],
+      "Images": [
+        "img/akt/led_table/001_lighttable.jpg",
+        "img/akt/led_table/002_lighttable.jpg",
+        "img/akt/led_table/004_lighttable.jpg",
+        "img/akt/led_table/005_lighttable.jpg",
+        "img/akt/led_table/006_lighttable.jpg",
+        "img/akt/led_table/lighttable_main.jpg",
+        "img/akt/led_table/Unbenannt-1.jpg",
+        "img/akt/led_table/wp_ss_20160822_0001.png"
+      ],
+      "DataSet": "tisch-set"
+    },
+
+  {
+    "Titel" : "Arduino Auto",
+    "Descriptions": [
+      "The Motuino is a small vehicle which consists of two controllable wheels at the back and one support wheel at the front.",
+      "You can control it with any Bluetooth control app from the app store.",
+      "The Arduino board rests on top of the vehicle and accepts string commands and translate them to mechanical movement.",
+      "The Motuino automatically avoids obstacles with its built in distance sensor. It receives its energy through four AAA batteries which are located at the back of the vehicle."
+    ],
+    "Images": [
+      "img/akt/car/001_motuino.jpg",
+      "img/akt/car/002_motuino.jpg",
+      "img/akt/car/003_motuino.jpg",
+      "img/akt/car/004_motuino.jpg"
+    ],
+    "DataSet": "auto-set"
+    },
+
+  {
+    "Titel" : "Papier",
+    "Descriptions": [
+      "Ein Buchpanda.",
+      "Mini Schlagzeug.",
+      "Das Spiel Secret Hitler."
+    ],
+    "Images": [
+      "img/akt/papier/book_folding.jpg",
+      "img/akt/papier/drum.jpg",
+      "img/akt/papier/secret_hitler.jpg"
+    ],
+    "DataSet": "papier-set"
+    }]
+}

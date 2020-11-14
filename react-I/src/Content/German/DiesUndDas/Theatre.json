@@ -1,0 +1,107 @@
+{
+  "HeroImage": "img/akt/theater_hero.png",
+  "TextImage": "img/akt/theater_hero.png",
+  "Titel": "THEATER",
+  "Entries": [
+    {
+      "Titel" : "Ruhig Blut",
+      "Descriptions": [
+        "Darum ging es: Es sind die Abgründe, für die sich das Ensamble in „RUHIG BLUT“ interessieren – denn diese Abgründe funktionieren wie eine Lupe: Man erkennt Dinge, die einem vorher verschlossen blieben, alles wird schärfer.",
+        "Was ist das also für ein Hochschulsystem? Wie fühlt sich ein Prüfungsausschussvorsitzender, wenn er einem Studenten nicht mehr erlauben kann, weiter zu studieren?",
+        "Was sagt ein Psychologe dazu? Wie hält man sich wach?",
+        "UND Was passiert, wenn da plötzlich die Phantasie mit einem durchgeht und eine Waffe ins Spiel kommt?",
+        "Plakat"
+      ],
+      "Images": [
+        "img/akt/ruhig_blut/001_ruhig_blut.jpg",
+        "img/akt/ruhig_blut/002_ruhig_blut.jpg",
+        "img/akt/ruhig_blut/003_ruhig_blut.jpg",
+        "img/akt/ruhig_blut/004_ruhig_blut.jpg",
+        "img/akt/ruhig_blut/141129_web_Eventproduktion_Plakat_A3.jpg"
+      ],
+      "DataSet": "ruhig-blut-set"
+    },
+
+  {
+    "Titel" : "Bedienungslos",
+    "Descriptions": [
+      "Darum ging es: Sita ist eine wunderschöne Prinzessin.",
+      "Rama ist ein toller Hecht (auch wenn sein Name das vielleicht nicht grade nahe legt) und Ravana ist der Dämonenfürst.",
+      "Alle wollen Sita, aber nur Rama besteht die Probe.",
+      "Dummerweise werden sie nicht König und Königin –Intrige, Intrige- sondern müssen in den Wald ziehen.",
+      "Das findet Sita nich ganz so dolle, also nutzt unser Dämon seine Chance und nimmt sie mit auf seine Insel.",
+      "Rama findet das ganz und gar nich cool: Showdown mit Explosionen und Affen und so.",
+      "Plakat"
+    ],
+    "Images": [
+      "img/akt/bediengungslos/001_Bedingungslos_8438.jpg",
+      "img/akt/bediengungslos/049_Bedingungslos_8914.jpg",
+      "img/akt/bediengungslos/098_Bedingungslos_9367.jpg",
+      "img/akt/bediengungslos/134_Bedingungslos_9748.jpg",
+      "img/akt/bediengungslos/147_Bedingungslos_9873.jpg",
+      "img/akt/bediengungslos/166_Bedingungslos_9969.jpg",
+      "img/akt/bediengungslos/11041178_1014030055338652_8751422009852392152_n.jpg"
+    ],
+    "DataSet": "bedienungslos-set"
+    },
+
+  {
+    "Titel" : "Geschichten aus dem Jenseits",
+    "Descriptions": [
+      "Darum ging es: Eine Königin herrscht über Ihr Reich mit aller Härte. Sie möchte alles und jeden kontrollieren – selbst das Unkontrollierbare.",
+      "Leider kann sie nicht über die Grenzen ihres Reiches blicken, denn dort herrscht ihr alter Rivale, der Drache.",
+      "Also was tun?",
+      "Klar, man sucht sich die 7 schneidigsten Helden des Reiches, bietet ihnen Gold und Silber, drückt ihnen die gefährlichste Waffe überhaupt in die Hände und hofft auf Erfolg.",
+      "Gesagt, getan – die Sieben sind schnell überzeugt und treten die gefährliche Suche ins Jenseits an.",
+      "Dort kommt jedoch alles anders als erwartet und das Instrument, mit dem man ins Jenseits blicken kann, entpuppt sich als tödliche Gefahr."
+    ],
+    "Images": [
+      "img/akt/geschichten/001_geschichten_jenseits.jpg",
+      "img/akt/geschichten/002_geschichten_jenseits.jpg",
+      "img/akt/geschichten/003_geschichten_jenseits.jpg",
+      "img/akt/geschichten/004_geschichten_jenseits.jpg",
+      "img/akt/geschichten/005_geschichten_jenseits.jpg",
+      "img/akt/geschichten/Plakat-Web-973x1376.jpg"
+    ],
+    "DataSet": "geschichten-set"
+    },
+
+  {
+    "Titel" : "Liebe macht Nass",
+    "Descriptions": [
+      "Darum ging es: Moosbrugger und Amann heißen die beiden mächtigen Familienclans, die das Leben im südbadischen Konstanz bestimmen und ihre Feindschaft seit mehr als 600 Jahren öffentlich austragen.",
+      "Anlässlich des zehnjährigen Geburtstags der Bodenseetherme Konstanz, lässt es sich der Clan der Amanns nicht nehmen ein philharmonisches Charitykonzert in der Therme zu veranstalten, um für ein Herzensprojekt zu werben: Ein Konzerthaus für Konstanz.",
+      "Natürlich wollen die Amanns ein für alle Mal klar zu stellen, wer Macht und Einfluss in der altehrwürdigen Konzilstadt besitzt.",
+      "Klar, dass die Moosbrugger das nicht auf sich sitzen lassen können.",
+      "Die gehen auf die Barrikaden und versuchen die Veranstaltung mit allem was ihnen zur Verfügung steht zu stören.",
+      "Ihre Haltung zu einem Konzerthaus ist eindeutig: Wer braucht schon ein Konzerthaus -  was in Konstanz wirklich fehlt, ist Wohnraum für alle.",
+      "Roman ein junger Moosbrugger und Julia eine Amanns, begegnen sich an diesem Charitykonzert in der Therme und haben keine Ahnung, wen sie da vor sich haben – verlieben sich unsterblich ineinander, nicht ahnend, dass die Fehde der beiden Konstanzer Familien stärker ist."
+    ],
+    "Images": [
+      "img/akt/liebe/092_Liebe_Macht_Nass_9016.jpg",
+      "img/akt/liebe/094_Liebe_Macht_Nass_9023.jpg",
+      "img/akt/liebe/205_Liebe_Macht_Nass_9810.jpg",
+      "img/akt/liebe/275_Liebe_Macht_Nass_0391.jpg",
+      "img/akt/liebe/345_Liebe_Macht_Nass_1081.jpg",
+      "img/akt/liebe/15219604_1317248095016845_205174998001493732_n.jpg",
+      "img/akt/liebe/15235938_1316300328444955_3333243489261394306_o.jpg"
+    ],
+    "DataSet": "liebe-set"
+    },
+
+  {
+    "Titel" : "#wirsinddannmalhier",
+    "Descriptions": [
+      "An invitation to a dinner – and nobody knows which meal rules are valid.",
+      "The result is a communicative balancing act (almost) with no speech, full of vain approaches and absurdly comical moments."
+    ],
+    "Images": [
+      "img/akt/wirsinddannmalhier/20157391_1774990735847922_6372103834109732424_o.jpg",
+      "img/akt/wirsinddannmalhier/20247833_1781657611847901_4120034674010753867_o.jpg",
+      "img/akt/wirsinddannmalhier/20248330_1781658288514500_5554003364552420528_o.jpg",
+      "img/akt/wirsinddannmalhier/20280394_1781658108514518_895309496015477203_o.jpg",
+      "img/akt/wirsinddannmalhier/20286761_1781657885181207_3845666916581047465_o.jpg"
+    ],
+    "DataSet": "wirsinddannmalhier-set"
+    }]
+}
