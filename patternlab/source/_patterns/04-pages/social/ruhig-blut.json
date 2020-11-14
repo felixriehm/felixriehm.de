@@ -1,0 +1,32 @@
+{
+    "navbar-current-category" : "Social",
+    "strap-pattern" : "sayagata",
+	"itemTitle" : "Theater",
+    "itemSubTitle-one" : "Ruhig Blut",
+    "itemSubTitle-two" : "",
+    "itemTags" : "#Stage tech",
+    "itemBackUrl": "link.pages-social",
+    "itemDescription" : "<p>The abyss is what our ensemble “RUHIG BLUT” holds interest for. Because these abysses function like a magnifier: You discover things which remained misunderstood before but now will be seen most sharply. So, what about this higher education system? How does a chairman of the examination board feel when he can’t allow a student to continue his studies anymore? What does a psychologist say about that? How to keep yourself awake? AND what happens when suddenly one’s imagination is cracking up and a weapon comes into play?</p>",
+    "carousel" : [
+        {
+            "imageUrl" : "../../images/social/blut/blut_01.jpg",
+            "imageAltText": "blut_01.jpg"
+        },
+        {
+            "imageUrl" : "../../images/social/blut/blut_02.jpg",
+            "imageAltText": "blut_02.jpg"
+        },
+        {
+            "imageUrl" : "../../images/social/blut/blut_03.jpg",
+            "imageAltText": "blut_03.jpg"
+        },
+        {
+            "imageUrl" : "../../images/social/blut/blut_04.jpg",
+            "imageAltText": "blut_04.jpg"
+        },
+        {
+            "imageUrl" : "../../images/social/blut/blut_05.jpg",
+            "imageAltText": "blut_05.jpg"
+        }
+    ]
+}

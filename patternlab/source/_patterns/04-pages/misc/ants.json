@@ -1,0 +1,32 @@
+{
+    "navbar-current-category" : "Misc",
+	"strap-pattern" : "washi",
+    "itemTitle" : "Contest",
+    "itemSubTitle-one" : "Google AI Game",
+    "itemSubTitle-two" : "",
+    "itemTags" : "#Ants #Game",
+    "itemBackUrl": "link.pages-misc",
+    "itemDescription" : "<p>In autumn 2011 Google hosted an AI programming contest. The participants had to code a program which controls a colony of ants. The colony had the task to gather food, fight other ants and to defend their own hill. The participants competed with their programs against each other and placed themselves thereby in a leaderboard.</p><p>My colleagues and I coded such a program and let our ants fight the others. We defined different states that each ant could adopt: combat, food gathering, map discovery and defending and developed several algorithms for it.</p><p>For testing we created a map editor which helped us to verify the behavior in an isolated environment. We documented the whole process on  <a class=\"link\" href=\"https://github.com/AliceTheCat/AntBot/wiki\" target=\"_blank\">GitHub-Wiki</a></p>",
+    "carousel" : [
+        {
+            "imageUrl" : "../../images/misc/ants/ants_01.jpg",
+            "imageAltText": "ants_01.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/ants/ants_02.jpg",
+            "imageAltText": "ants_02.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/ants/ants_03.jpg",
+            "imageAltText": "ants_03.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/ants/ants_04.jpg",
+            "imageAltText": "ants_04.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/ants/ants_05.jpg",
+            "imageAltText": "ants_05.jpg"
+        }
+    ]
+}

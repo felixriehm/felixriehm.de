@@ -1,0 +1,32 @@
+{
+    "navbar-current-category" : "Webdesign",
+    "strap-pattern" : "symphony",
+	"itemTitle" : "App",
+    "itemSubTitle-one" : "Council of",
+    "itemSubTitle-two" : "Constance App",
+    "itemTags" : "#Design",
+    "itemBackUrl": "link.pages-web-and-design",
+    "itemDescription" : "<p>For the 600th anniversary of the council of Constance, the town looked for an app concept for mobile devices that could accompany exhibitions, festivals and other activities for the following four years. The app was elaborated and presented with several primary screens. The screens illustrate the user flow and appearance of the app.  The core message was: “Jan Hus näher bringen”. The basis of the concept development was a Creative Brief which I created. It contains information about the target subject, the assignment and also the timetable.</p>",
+    "carousel" : [
+        {
+            "imageUrl" : "../../images/web-and-design/konzil/konzil_01.jpg",
+            "imageAltText": "konzil_01.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/konzil/konzil_02.jpg",
+            "imageAltText": "konzil_02.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/konzil/konzil_03.jpg",
+            "imageAltText": "konzil_03.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/konzil/konzil_04.jpg",
+            "imageAltText": "konzil_04.jpg"
+        },
+        {
+            "imageUrl" : "../../images/web-and-design/konzil/konzil_05.jpg",
+            "imageAltText": "konzil_05.jpg"
+        }
+    ]
+}

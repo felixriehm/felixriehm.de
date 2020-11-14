@@ -1,0 +1,32 @@
+{
+    "navbar-current-category" : "Misc",
+	"strap-pattern" : "washi",
+    "itemTitle" : "Arduino",
+    "itemSubTitle-one" : "Simple Car",
+    "itemSubTitle-two" : "",
+    "itemTags" : "#Remote control",
+    "itemBackUrl": "link.pages-misc",
+    "itemDescription" : "<p>The Motuino is a small vehicle which consists of two controllable wheels at the back and one support wheel at the front. You can control it with any Bluetooth control app from the app store. The Arduino board rests on top of the vehicle and accepts string commands and translate them to mechanical movement. The Motuino automatically avoids obstacles with its built in distance sensor. It receives its energy through four AAA batteries which are located at the back of the vehicle.</p>",
+    "carousel" : [
+        {
+            "imageUrl" : "../../images/misc/car/car_01.jpg",
+            "imageAltText": "car_01.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/car/car_02.jpg",
+            "imageAltText": "car_02.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/car/car_03.jpg",
+            "imageAltText": "car_03.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/car/car_04.jpg",
+            "imageAltText": "car_04.jpg"
+        },
+        {
+            "imageUrl" : "../../images/misc/car/car_05.jpg",
+            "imageAltText": "car_05.jpg"
+        }
+    ]
+}
