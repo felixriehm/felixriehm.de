@@ -1,0 +1,26 @@
+.icon {
+  margin-right: 10px;
+  font-size: 4vw; }
+  @media (min-width: 576px) {
+    .icon {
+      font-size: 2vw; } }
+  @media (min-width: 992px) {
+    .icon {
+      font-size: 1.3vw; } }
+  @media (min-width: 1440px) {
+    .icon {
+      font-size: 1vw; } }
+
+body {
+  -webkit-font-smoothing: antialiased; }
+
+@font-face {
+  font-family: 'bernard';
+  src: url("/font/Bernhc.ttf") format("truetype"); }
+
+a {
+  color: inherit; }
+
+a:hover {
+  text-decoration: none;
+  color: inherit; }
