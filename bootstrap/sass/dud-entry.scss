@@ -1,0 +1,107 @@
+.act {
+    margin-bottom: 14%;
+    text-align: center;
+    
+    @include media-breakpoint-up(md) {
+        margin-bottom: 20%;
+    }
+    
+    .hero_image {
+        border-radius: 25%;
+        margin: 0 auto;
+        width: 40%;
+    }
+    
+    
+    .actTitle {
+        vertical-align: middle;
+        font-family: domine, serif;
+        font-size: 10vw;
+        font-weight: bold;
+        padding-top: 20px;
+        display: inline-block;
+
+        color: black;  /* Fallback: assume this color ON TOP of image */
+        background-repeat: no-repeat;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+        background-size: cover;
+        background-position: center;
+        
+        @include media-breakpoint-up(sm) {
+            font-size: 5vw;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 3.3vw;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 2.5vw;
+        }
+    }
+    
+    .dashed-line{
+      width:24%;
+    }
+
+    .entries{
+        
+        .entry {
+            padding-bottom: 2%;
+
+            @include media-breakpoint-up(sm) {
+                padding-bottom: 9%;
+            }
+            
+            @include media-breakpoint-up(md) {
+                padding-bottom: 6%;
+            }
+            
+            @include media-breakpoint-up(xl) {
+                padding-bottom: 4%;
+            }
+            
+            .entryTitle {
+                font-family: 'gillcon', sans-serif;
+                font-size: 7vw;
+                top: 10px;
+                position: relative;
+
+                @include media-breakpoint-up(sm) {
+                    font-size: 3.5vw;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 2.3vw;
+                }
+
+                @include media-breakpoint-up(xl) {
+                    font-size: 1.7vw;
+                }
+            }
+        }
+    }
+}
+
+
+.video-title{
+    font-family: bernard, sans-serif;
+    font-size: 2vw;
+        
+}
+
+.videos-title{
+    font-family: bernard, sans-serif;
+    font-size: 3vw;
+        
+}
+
+.video-container{
+    margin-bottom: 4%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
