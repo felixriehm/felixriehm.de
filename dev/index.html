@@ -188,7 +188,7 @@
                 minded. He joined theater groups, grabbed every opportunity to volunteer and dig deep into literature. His
                 interests in other fields are often reflected in his work. Felix´s work focuses on bringing life into
                 digital experiences by incorporating emotional intelligence and scientific thinking. His latest ambition is
-                to learn Japanese for cross-cultural exchange. ccc
+                to learn Japanese for cross-cultural exchange.
             </p>
             <div>
                 <a class="button button-outline" style="margin-right: 20px" href="media/F_Riehm_Lebenslauf.pdf" target="_blank"><i class="far fa-id-badge button-icon"></i> CV</a>
@@ -367,35 +367,37 @@
             </ul>
         </div>
     </div>
+    <script>
+        const HttpClient = function () {
+            this.get = function (aUrl, aCallback) {
+                const anHttpRequest = new XMLHttpRequest();
+                anHttpRequest.onreadystatechange = function () {
+                    if (anHttpRequest.readyState === 4 && anHttpRequest.status === 200)
+                        aCallback(anHttpRequest.responseText);
+                }
+
+                anHttpRequest.open("GET", aUrl, true);
+                anHttpRequest.send(null);
+            }
+        };
+        const client = new HttpClient();
+
+        let repoOwner = 'felixriehm';
+        let repoNames = ['cubic-bezier-curve-showcase', 'snake-opengl-multiplayer', '1d-height-field-fluid-webgl',
+            'ai-challenge-ants', 'arduino-led-and-music-coffee-table', 'knapsack', '2048-play-framework'];
+
+        for (const name of repoNames) {
+            client.get('https://api.github.com/repos/' + repoOwner + '/' + name, function(response) {
+                let repoData =  JSON.parse(response);
+                document.querySelector("#repo-" + name + " .repo-name").innerHTML = repoData.name;
+                document.querySelector("#repo-" + name + " .repo-description").innerHTML = repoData.description;
+                document.querySelector("#repo-" + name + " .repo-html-link").href = repoData.html_url;
+
+                document.querySelector("#repo-" + name + " .spinner-border").remove();
+                document.querySelector("#repo-" + name + " .code-projects-sub-section").style.display = "flex";
+            });
+        }
+    </script>
 </body>
-<script type="module" crossorigin="use-credentials">
-    alert("dddd")
-    import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
-
-    const octokit = new Octokit();
-
-    alert("asd")
-
-    let repoOwner = 'felixriehm';
-    let repoNames = ['cubic-bezier-curve-showcase', 'snake-opengl-multiplayer', '1d-height-field-fluid-webgl',
-        'ai-challenge-ants', 'arduino-led-and-music-coffee-table', 'knapsack', '2048-play-framework'];
-
-    for (const name of repoNames) {
-        let repoData = await octokit.request('GET /repos/{owner}/{repo}', {
-            owner: repoOwner,
-            repo: name
-        });
-        document.querySelector("#repo-" + name + " .repo-name").innerHTML = repoData.data.name;
-        document.querySelector("#repo-" + name + " .repo-description").innerHTML = repoData.data.description;
-        document.querySelector("#repo-" + name + " .repo-html-link").href = repoData.data.html_url;
-
-        document.querySelector("#repo-" + name + " .spinner-border").remove();
-        document.querySelector("#repo-" + name + " .code-projects-sub-section").style.display = "flex";
-    }
-</script>
-
-<script>
-    alert("wwww")
-</script>
 
 </html>
