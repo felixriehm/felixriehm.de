@@ -212,7 +212,7 @@
                                 <div class="repo-name"></div>
                                 <div class="repo-description"></div>
                                 <div class="repo-buttons">
-                                    <a style="margin-right: 4px" class="button button-clear repo-pages-html-link" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
+                                    <a style="margin-right: 4px" class="button button-clear repo-pages-html-link" href="https://felixriehm.github.io/cubic-bezier-curve-showcase/index.html" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
                                     <a style="margin-right: 4px" class="button button-clear repo-html-link" target="_blank"><i class="fab fa-github button-icon"></i> GitHub</a>
                                 </div>
                             </div>                         
@@ -226,7 +226,7 @@
                             <div class="repo-name"></div>
                             <div class="repo-description"></div>
                             <div class="repo-buttons">
-                                <a style="margin-right: 4px" class="button button-clear repo-pages-html-link" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
+                                <a style="margin-right: 4px" class="button button-clear repo-pages-html-link" href="https://felixriehm.github.io/1d-height-field-fluid-webgl/index.html" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
                                 <a style="margin-right: 4px" class="button button-clear repo-html-link" target="_blank"><i class="fab fa-github button-icon"></i> GitHub</a>
                                 <a class="button button-clear" href="media/Simulationsverfahren_von_Wasseroberflaechen.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> Documentation</a>
                             </div>
@@ -370,9 +370,8 @@
     <script type="module">
         import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 
-        const octokit = new Octokit({ auth: `ad6726e2b0764b4ebb5035436803ac311872c4f2` });
-
-
+        const octokit = new Octokit();
+        
         let repoOwner = 'felixriehm';
         let repoNames = ['cubic-bezier-curve-showcase', 'snake-opengl-multiplayer', '1d-height-field-fluid-webgl',
             'ai-challenge-ants', 'arduino-led-and-music-coffee-table', 'knapsack', '2048-play-framework'];
@@ -385,15 +384,6 @@
             document.querySelector("#repo-" + name + " .repo-name").innerHTML = repoData.data.name;
             document.querySelector("#repo-" + name + " .repo-description").innerHTML = repoData.data.description;
             document.querySelector("#repo-" + name + " .repo-html-link").href = repoData.data.html_url;
-            
-            if(repoData.data.has_pages) {
-                let pagesData = await octokit.request('GET /repos/{owner}/{repo}/pages', {
-                    owner: repoOwner,
-                    repo: name
-                })
-                document.querySelector("#repo-" + name + " .repo-pages-html-link").href = pagesData.data.html_url;
-            }
-            
             
             document.querySelector("#repo-" + name + " .spinner-border").remove();
             document.querySelector("#repo-" + name + " .code-projects-sub-section").style.display = "flex";
