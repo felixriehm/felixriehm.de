@@ -14,287 +14,266 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css">
+
     <title>Felix Riehm</title>
-    <style>
-        .button.button-clear, .button.button-outline {
-            color: #76C893;
-        }
-        .button {
-            border-color: #76C893;
-        }
-        body {
-            background-image: url(media/lightpaperfibers.png);
-            background-repeat: repeat;
-        }
-        .projects-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 20px;
-            object-fit: cover;
-        }
-        .projects-sub-section {
-            margin-left: 23px;
-        }
-        .button-icon {
-            font-size: 20px;
-            padding-top: -34px;
-            padding-top: -20px;
-            top: 3px;
-            position: relative;
-        }
-        li {
-            font-weight: bold;
-        }
-
-        li li {
-            font-weight: normal;
-        }
-
-        .avatar {
-            width: 100%;
-            max-width: 300px;
-            border-radius: 50%;
-        }
-
-        body {
-            max-width: 100%;
-            padding: 20px 20px;
-            margin: 0 auto;
-        }
-
-        .avatar-text {
-            margin: 40px 0 0 0;
-        }
-
-        .avatar-container {
-            flex-direction: column;
-            display: flex;
-            align-items: center;
-        }
-
-        /*
-            Larger than Mobile screen: 40.0rem (640px)
-            Larger than Tablet screen: 80.0rem (1280px)
-            Larger than Desktop screen: 120.0rem (1920px)
-        */
-        /* Larger than mobile screen */
-        @media (min-width: 40.0rem) {
-            body {
-                max-width: 385px;
-            }
-
-            .row {
-                flex-direction: column;
-            }
-        }
-
-        /* Larger than tablet screen */
-        @media (min-width: 80.0rem) {
-            body {
-                max-width: 1280px;
-            }
-
-            .avatar-text {
-                margin: 0 0 0 40px;
-            }
-
-            .avatar-container {
-                flex-direction: row;
-            }
-
-            .row {
-                flex-direction: row;
-            }
-        }
-
-        /* Larger than desktop screen */
-        @media (min-width: 120.0rem) {}
-    </style>
 </head>
 
 <body>
-    <h1 style="font-weight: 700;">Felix Riehm</h1>
+    <div class="main-container">
+        <h1 style="font-weight: 700;">Felix Riehm</h1>
 
-    <div class="avatar-container">
-        <img class="avatar" src="media/avatar_bw.jpg"></img>
-        <div class="avatar-text">
-            <p>
-                Felix is a computer scientist based in Berlin. His unconventional story began at an early age coding games
-                and other programs in his small bedroom at his parents place. For him coding was always a zen-like
-                experience. Later he moved to Constance to pursue his passion for discovering and learning new ideas. While
-                exploring the scientific horizon at the university, Felix still tried to find new experiences to stay open
-                minded. He joined theater groups, grabbed every opportunity to volunteer and dig deep into literature. His
-                interests in other fields are often reflected in his work. Felix´s work focuses on bringing life into
-                digital experiences by incorporating emotional intelligence and scientific thinking. His latest ambition is
-                to learn Japanese for cross-cultural exchange.
-            </p>
-            <div>
-                <a class="button button-outline" href="dev"><i class="fab fa-dev button-icon"></i> Developer site</a>
+        <div class="avatar-container">
+            <img class="avatar" src="media/avatar_bw.jpg"></img>
+            <div class="avatar-text">
+                <p>
+                    Felix is a computer scientist based in Berlin. His unconventional story began at an early age coding games
+                    and other programs in his small bedroom at his parents place. For him coding was always a zen-like
+                    experience. Later he moved to Constance to pursue his passion for discovering and learning new ideas. While
+                    exploring the scientific horizon at the university, Felix still tried to find new experiences to stay open
+                    minded. He joined theater groups, grabbed every opportunity to volunteer and dig deep into literature. His
+                    interests in other fields are often reflected in his work. Felix´s work focuses on bringing life into
+                    digital experiences by incorporating emotional intelligence and scientific thinking. His latest ambition is
+                    to learn Japanese for cross-cultural exchange.
+                </p>
+                <div>
+                    <a class="button button-outline" href="dev"><i class="fab fa-dev button-icon"></i> Code projects</a>
+                </div>
             </div>
         </div>
-    </div>
-    <hr>
-
-    <h3>
-        Past projects
-    </h3>
+        <hr>
+    
+        <h3>
+            Past projects
+        </h3>
+        
+            <div class="row">
+                <div class="column">
+                    <h4>Theater</h4>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/blut_01.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Ruhig Blut</div>
+                                <div class="repo-description">
+                                    The abyss is what our ensemble “RUHIG BLUT” holds interest for. Because these abysses function like a magnifier: You discover things which remained misunderstood before but now will be seen most sharply. So, what about this higher education system? How does a chairman of the examination board feel when he can’t allow a student to continue his studies anymore? What does a psychologist say about that? How to keep yourself awake? AND what happens when suddenly one’s imagination is cracking up and a weapon comes into play?
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1tHUm-4Qs4nD9KYmv2MO2JRvQancuKh5v?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/bedingungslos_01.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Bedingungslos</div>
+                                <div class="repo-description">
+                                    Sita is a beautiful princess. Rama is a hell of a person ( even if his name doesn’t really suggest it) and Ravana is the demon lord. They all want to possess Sita, but only Rama passes the challenge. Unfortunately, they won’t become king and queen but have to move into the woods (intrigue ahead!). Sita doesn’t quite like that, therefore our demon uses his chance and takes her to his island. Rama was not at all cool about that: showdown with explosions and monkeys and stuff.
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1XnKzuiFEMf0zD8qQIfbIkmtZDr-HlFfn?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/geschichten_01.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Geschichten aus dem Jenseits</div>
+                                <div class="repo-description">
+                                    A queen rules her kingdom with the utmost severity. She wants to control everything and everyone - even the uncontrollable. Unfortunately, she can’t look beyond the borders of her kingdom, but there reigns her old rival, the dragon. So what to do?</p> <p>Sure, you look for the seven most spirited heroes of the kingdom, offer them gold and silver, put the most dangerous weapon of all time in their hands and hope for success.</p><p>No sooner said than done – the Seven are quickly convinced and approach the dangerous search beyond. Once arrived, everything turns out to be different to what was expected. The instrument that allowed you to look beyond emerges as a deadly threat.
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1oOU-woerFFUsrc434HQelZ8H3xZ3Rbjf?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/liebe_01.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Liebe macht nass</div>
+                                <div class="repo-description">
+                                    Moosbrugger and Amann are the most powerful family clans in the southern part of Baden in Constance. They dominate life and also hold a 600 years old public dispute.</p><p>On the occasion of the 10th anniversary of the thermal bath in Constance, the Amman family hosts a philharmonic charity concert to advertise one of their long-desired project: a concert hall for Constance. No question, once and for all the Amann family wants to make clear that they have the power and influence in their time-honored town.</p><p>Naturally, the Moosbruggers are not about to accept this. They go on the warpath and try hard to disrupt the event with everything they got. Their stance on a new concert hall is clear: Who needs a concert hall in this crowded town if we could spend the money for more living space?!</p><p>Roman, a young man from the Mossbrugger family and Julia from the Amann family are meeting at the charity event inside the thermal bath. Both, having no clue who they are facing, passionately fall in love with each other not knowing that the feud of their families is dominating the evening.
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/15SCJceJFEBQnRcuyZ-DRIcZ4Vun95mCF?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/wirhier_01.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Wir sind dann mal hier</div>
+                                <div class="repo-description">
+                                    An invitation to a dinner – and nobody knows which meal rules are valid. The result is a communicative balancing act (almost) with no speech, full of vain approaches and absurdly comical moments.
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1OhC_dF2AbnWWOqFPZ4tyZzRrLyHz3TrL?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <h4>Film</h4>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/01_bonbon.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Bonbon</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1oYpxiFvwiEY6E3OwkCW4_KFRBDUvrwFa?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/liebe_03.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Liebe macht nass</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1t1dibSK9W5adxQ2OUoyno106eBE3cjwH?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Videos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <h4>Art</h4>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/Kek.png" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Heru</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1SkMy9JUf7ecASNIwzEFzSQU5MopV5ZBW?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Images</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <h4>Voluntary</h4>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/nippon.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">19th Japanese Film Festival</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a style="margin-right: 4px" class="button button-clear" href="https://nipponconnection.com/de" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/14klovyarTH39yKMMiM2pVvj6AqZDZNJn?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <img src="media/esn_01.jpg" class="projects-img"/>
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Erasmus Student Network</div>
+                                <div class="repo-description">
+                                    The Erasmus Student Network is Europe's largest student organization with sections distributed all over Europe. ESN is a non-profit organization operating on the local, national and international level. As part of this network, ESN Heidelberg was established in 2014 to bring ESN's vision to the beautiful student city of Heidelberg. ESN Heidelberg is therefore part of ESN Germany and part of ESN International.</p><p>What we do: </br> International studies can be a vibrant period of personal discovery and cultural understanding, and our mission is to facilitate and enrich this experience for all international students in Heidelberg. In this context, we organize events, trips, and volunteering opportunities to international students in Heidelberg, and provide help and guidance for newcomers. We strive to enrich international students' experience by helping to integrate them with locals and Heidelberg's international community.</p><p>Who we are: </br> Here in Heidelberg our team consists of German and international students living and promoting the ideas of integration and mobility to other German and international students. We work in close cooperation with the international office of the University of Heidelberg. As Local Erasmus Initiative (LEI) of the University of Heidelberg we are officially supported by the German Academic Exchange Service (DAAD).
+                                </div>
+                                <div class="repo-buttons">
+                                    <a style="margin-right: 4px" class="button button-clear" href="https://esn-germany.de" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
+                                    <a class="button button-clear" href="https://drive.google.com/drive/folders/1UbjbdxZfUhwXAz6FByoWhjY1kvMGSgtK?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <h4>Writting</h4>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Die Entstehung der Gebirge (short story)</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="media/Die-Entstehung-der-Gebirge.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Maskenleid (short story)</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="media/Maskenleid.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Ein notwendiger Versuch (play)</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="media/Ein-notwendiger-Versuch.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="repo-root">
+                        <div class="code-projects-sub-section">
+                            <div class="repo-text-wrapper">
+                                <div class="repo-name">Die Flucht (short story)</div>
+                                <div class="repo-description">
+                                </div>
+                                <div class="repo-buttons">
+                                    <a class="button button-clear" href="media/Die-Flucht.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        <hr>
+    
+        <h3>
+            Friends
+        </h3>
     
         <div class="row">
             <div class="column">
-                <h4>Theater</h4>
-                    <ul>
-                        <li>
-                            Ruhig Blut
-                            <div class="projects-sub-section">
-                                <img src="media/blut_01.jpg" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1tHUm-4Qs4nD9KYmv2MO2JRvQancuKh5v?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                        <li>
-                            Bedingungslos
-                            <div class="projects-sub-section">
-                                <img src="media/bedingungslos_01.jpg" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1XnKzuiFEMf0zD8qQIfbIkmtZDr-HlFfn?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                        <li>
-                            Geschichten aus dem Jenseits
-                            <div class="projects-sub-section">
-                                <img src="media/geschichten_01.jpg" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1oOU-woerFFUsrc434HQelZ8H3xZ3Rbjf?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                        <li>
-                            Liebe macht nass
-                            <div class="projects-sub-section">
-                                <img src="media/liebe_01.jpg" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/15SCJceJFEBQnRcuyZ-DRIcZ4Vun95mCF?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                        <li>
-                            Wir sind dann mal hier
-                            <div class="projects-sub-section">
-                                <img src="media/wirhier_01.jpg" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1OhC_dF2AbnWWOqFPZ4tyZzRrLyHz3TrL?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <h4>Film</h4>
-                    <ul>
-                        <li>
-                            Bonbon
-                            <div class="projects-sub-section">
-                                <img src="media/01_bonbon.jpg" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1oYpxiFvwiEY6E3OwkCW4_KFRBDUvrwFa?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                        <li>
-                            Liebe macht nass
-                            <div class="projects-sub-section">
-                                <img src="media/liebe_03.jpg" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1t1dibSK9W5adxQ2OUoyno106eBE3cjwH?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Videos</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <h4>Art</h4>
-                    <ul>
-                        <li>
-                            Heru
-                            <div class="projects-sub-section">
-                                <img src="media/Kek.png" class="projects-img"/>
-                                <br>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1SkMy9JUf7ecASNIwzEFzSQU5MopV5ZBW?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Images</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <h4>Voluntary</h4>
-                    <ul>
-                        <li>
-                            19th Japanese Film Festival
-                            <div class="projects-sub-section">
-                                <img src="media/nippon.jpg" class="projects-img"/>
-                                <br>
-                                <a style="margin-right: 4px" class="button button-clear" href="https://nipponconnection.com/de" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/14klovyarTH39yKMMiM2pVvj6AqZDZNJn?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                        <li>
-                            Erasmus Student Network
-                            <div class="projects-sub-section">
-                                <img src="media/esn_01.jpg" class="projects-img"/>
-                                <br>
-                                <a style="margin-right: 4px" class="button button-clear" href="https://esn-germany.de" target="_blank"><i class="fas fa-globe-americas button-icon"></i> Website</a>
-                                <a class="button button-clear" href="https://drive.google.com/drive/folders/1UbjbdxZfUhwXAz6FByoWhjY1kvMGSgtK?usp=sharing" target="_blank"><i class="fab fa-google-drive button-icon"></i> Photos</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <h4>Writting</h4>
-                    <ul>
-                        <li>
-                            Die Entstehung der Gebirge (short story)
-                            <div class="projects-sub-section">
-                                <a class="button button-clear" href="media/Die-Entstehung-der-Gebirge.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
-                            </div>
-                        </li>
-                        <li>
-                            Maskenleid (short story)
-                            <div class="projects-sub-section">
-                                <a class="button button-clear" href="media/Maskenleid.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
-                            </div>
-                        </li>
-                        <li>
-                            Ein notwendiger Versuch (play)
-                            <div class="projects-sub-section">
-                                <a class="button button-clear" href="media/Ein-notwendiger-Versuch.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
-                            </div>
-                        </li>
-                        <li>
-                            Die Flucht (short story)
-                            <div class="projects-sub-section">
-                                <a class="button button-clear" href="media/Die-Flucht.pdf" target="_blank"><i class="far fa-file-pdf button-icon"></i> PDF</a>
-                            </div>
-                        </li>
-                    </ul>
+                <img style="height: 94px; padding-top: 16px; display: block;"
+                    src="media/1511565_671168186269469_1623905118_n.jpg">
+            </div>
+            <div class="column">
+                <img style="height: 84px; padding-top: 16px; display: block;"
+                    src="media/2880px-Hochschule_Konstanz_Technik_Wirtschaft_und_Gestaltung_logo.svg_.png">
+            </div>
+            <div class="column">
+                <img style="height: 84px; padding-top: 16px; display: block;" src="media/NipponConnection_Logo-1.png">
+    
             </div>
         </div>
-
-    <hr>
-
-    <h3>
-        Friends
-    </h3>
-
-    <div class="row">
-        <div class="column">
-            <img style="height: 94px; padding-top: 16px; display: block;"
-                src="media/1511565_671168186269469_1623905118_n.jpg">
-        </div>
-        <div class="column">
-            <img style="height: 84px; padding-top: 16px; display: block;"
-                src="media/2880px-Hochschule_Konstanz_Technik_Wirtschaft_und_Gestaltung_logo.svg_.png">
-        </div>
-        <div class="column">
-            <img style="height: 84px; padding-top: 16px; display: block;" src="media/NipponConnection_Logo-1.png">
-
+        <div class="row">
+            <div class="column">
+                <img style="height: 94px; padding-top: 16px; display: block;"
+                    src="media/TheaterHTWG_Logo_S_01_WortBildmarke_horizontal-1024x512_versetzt2.jpg">
+            </div>
+            <div class="column">
+                <img style="height: 120px; padding-top: 16px; display: block;" src="media/2560px-HTW_Berlin_logo.svg.png">
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="column">
-            <img style="height: 94px; padding-top: 16px; display: block;"
-                src="media/TheaterHTWG_Logo_S_01_WortBildmarke_horizontal-1024x512_versetzt2.jpg">
-        </div>
-        <div class="column">
-            <img style="height: 120px; padding-top: 16px; display: block;" src="media/2560px-HTW_Berlin_logo.svg.png">
-        </div>
-    </div>
-
 </body>
 
 </html>

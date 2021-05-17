@@ -1,0 +1,155 @@
+.repo-name {
+    font-weight: bold;
+}
+
+.repo-buttons {
+    padding-top: 10px;
+}
+
+.repo-text-wrapper {
+    padding-top: 20px;
+}
+
+.repo-root {
+    margin-bottom: 54px;
+}
+
+.code-projects-sub-section {
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button.button-clear, .button.button-outline {
+    color: #76C893;
+}
+.button {
+    border-color: #76C893;
+}
+body {
+    background-image: url(media/smit-anam-a06FgjDEueU-unsplash.jpg), url(media/lightpaperfibers.png);
+    background-repeat: no-repeat, repeat;
+    background-size: contain, auto;
+    background-position-x: center;
+}
+
+.main-container{
+    background-image: url(media/lightpaperfibers.png);
+    background-repeat: repeat;
+    border-radius: 42px;
+    padding: 42px;
+}
+.projects-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.projects-sub-section {
+    margin-left: 23px;
+}
+.code-projects-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.button-icon {
+    font-size: 20px;
+    padding-top: -34px;
+    padding-top: -20px;
+    top: 3px;
+    position: relative;
+}
+
+.avatar {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+body {
+    max-width: 100%;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+.avatar-text {
+    margin: 40px 0 0 0;
+}
+
+.avatar-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.spinner-border + .code-projects-sub-section {
+    display: none;
+}
+.education-subsection {
+    margin-left: 23px;
+}
+.education-img {
+    height: 80px;
+    object-fit: contain;
+}
+.education-img-alt {
+    height: 60px;
+    object-fit: contain;
+}
+.li-education {
+    font-weight: normal;
+}
+li {
+    font-weight: bold;
+}
+
+li li {
+    font-weight: normal;
+}
+
+/*
+    Larger than Mobile screen: 40.0rem (640px)
+    Larger than Tablet screen: 80.0rem (1280px)
+    Larger than Desktop screen: 120.0rem (1920px)
+*/
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) {
+    body {
+        max-width: 385px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+    body {
+        max-width: 1280px;
+    }
+
+    .code-projects-sub-section {
+        flex-direction: row;
+    }
+
+    .repo-text-wrapper {
+        padding-left: 20px;
+    }
+
+    .avatar-text {
+        margin: 0 0 0 40px;
+    }
+
+    .avatar-container {
+        flex-direction: row;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {}
