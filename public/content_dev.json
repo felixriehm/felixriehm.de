@@ -653,6 +653,10 @@
     {
       "src": "https://static-files.felixriehm.de/images/friends/htw_berlin.png",
       "alt": "HTW Berlin"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/humboldtLogo.svg",
+      "alt": "Humboldt Universitaet.svg"
     }
   ]
 }
