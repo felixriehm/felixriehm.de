@@ -9,17 +9,6 @@ import {useEffect} from "react";
 import Viewer from 'viewerjs';
 import heroImage from "@/public/images/logo.svg";
 
-async function getData(isDevPage: boolean) {
-    const res = await fetch(`https://static-files.felixriehm.de/content${isDevPage ? '_dev': ''}.json`)
-
-    if (!res.ok) {
-        // This will activate the closest `error.js` Error Boundary
-        throw new Error('Failed to fetch data')
-    }
-
-    return res.json()
-}
-
 function initImageGalary(){
     var galleries= document.querySelectorAll<HTMLElement>('.experience-gallery');
     for (let i = 0; i < galleries.length; i++) {
