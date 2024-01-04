@@ -9,7 +9,7 @@ import {useEffect} from "react";
 import Viewer from 'viewerjs';
 import heroImage from "@/public/images/logo.svg";
 
-function initImageGalary(){
+function initImageGallery(){
     var galleries= document.querySelectorAll<HTMLElement>('.experience-gallery');
     for (let i = 0; i < galleries.length; i++) {
         new Viewer(galleries[i], {
@@ -106,7 +106,7 @@ export default function Home() {
 
     useEffect(() => {
         (async function () {
-            initImageGalary()
+            initImageGallery()
             initIntersectionObserver()
         })();
     }, [isDevPage]);
