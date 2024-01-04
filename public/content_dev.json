@@ -1,0 +1,658 @@
+{
+  "avatar": "https://static-files.felixriehm.de/images/avatar_dev.png",
+  "heroImage": "https://static-files.felixriehm.de/images/logo.svg",
+  "about": "Felix is a computer scientist based in Germany. His unconventional story began at an early age coding games and other programs in his small bedroom at his parents place. For him coding was always a zen-like experience. Later he moved to Constance to pursue his passion for discovering and learning new ideas. While exploring the scientific horizon at the university, Felix still tried to find new experiences to stay open minded. He joined theater groups, grabbed every opportunity to volunteer and dig deep into literature. His interests in other fields are often reflected in his work. Felix´s work focuses on bringing life into digital experiences by incorporating emotional intelligence and scientific thinking.",
+  "metaData": [
+    {
+      "title": "Email",
+      "data": "mail@felixriehm.de",
+      "type": "mail"
+    },
+    {
+      "title": "GitHub",
+      "data": "https://github.com/felixriehm/",
+      "type": "link"
+    },
+    {
+      "title": "Other projects",
+      "data": "https://felixriehm.de/",
+      "type": "link"
+    },
+    {
+      "title": "Mastodon",
+      "data": "https://social.mpdl.mpg.de/@riehm/",
+      "type": "link"
+    }
+  ],
+  "experienceCategories": [
+    {
+      "title": "Past projects",
+      "experiences": [
+        {
+          "title": "Hatnote - Max Planck Digital Library",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/hatnote.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "An audiovisualisation of the Max Planck Digital Library services (minervamessenger, keeper, bloxberg). Events of these services are presented as fading dots accompanied by a relaxing soundscape. Dot sizes and tone pitches vary based on event information."
+            },
+            {
+              "title": "Keywords:",
+              "details": "data visualisation, audio, golang, typescript, d3js"
+            },
+            {
+              "title": "Where:",
+              "details": "Max Planck Digital Library"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/hatnote_001.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/hatnote_001.jpg",
+              "alt": "hatnote_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/hatnote_002.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/hatnote_002.jpg",
+              "alt": "hatnote_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/hatnote_003.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/hatnote_003.jpg",
+              "alt": "hatnote_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/hatnote_004.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/hatnote_004.jpg",
+              "alt": "hatnote_04"
+            }
+          ],
+          "videos": [
+            {
+              "src": "https://www.youtube.com/embed/2gf6ia6KHMY?si=5Nd2H03eRIwsGKcL"
+            }
+          ],
+          "links": [
+            {
+              "title": "Website",
+              "href": "https://www.mpdl.mpg.de/"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "VDVolume",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/vdvolume.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "A voxel-based volume renderer for virtual dissection written in Unity. You can import CT scans and display and modify millions of voxels in real time. The application makes use of parallel computing on CPU and GPU."
+            },
+            {
+              "title": "Keywords:",
+              "details": "computer-graphics, gpu-instancing, parallel-computing, unity, unity-dots, volume-rendering"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Berlin"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_001.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_001.png",
+              "alt": "vdvolume_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_002.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_002.png",
+              "alt": "vdvolume_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_003.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_003.png",
+              "alt": "vdvolume_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_004.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_004.png",
+              "alt": "vdvolume_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_005.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_005.png",
+              "alt": "vdvolume_05"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_006.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_006.png",
+              "alt": "vdvolume_06"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_007.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_007.png",
+              "alt": "vdvolume_07"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_008.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_008.png",
+              "alt": "vdvolume_08"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_009.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_009.png",
+              "alt": "vdvolume_09"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_010.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_010.png",
+              "alt": "vdvolume_10"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_011.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_011.png",
+              "alt": "vdvolume_11"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/vdvolume_012.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/vdvolume_012.png",
+              "alt": "vdvolume_12"
+            }
+          ],
+          "videos": [
+            {
+              "src": "https://www.youtube.com/embed/wzIdGDc5K-U"
+            }
+          ],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/VDVolume"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "opengl-renderer",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/opengl-renderer.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "An OpenGL renderer written in C++ that can be used to view objects in a scene. The renderer can be configured via a GUI. Developed with the help of learnopengl.com."
+            },
+            {
+              "title": "Keywords:",
+              "details": "cpp, opengl, phong-shading, shaders, textures"
+            },
+            {
+              "title": "Where:",
+              "details": "At home"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/opengl-renderer_01.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/opengl-renderer_01.png",
+              "alt": "opengl-renderer_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/opengl-renderer_02.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/opengl-renderer_02.png",
+              "alt": "opengl-renderer_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/opengl-renderer_03.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/opengl-renderer_03.png",
+              "alt": "opengl-renderer_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/opengl-renderer_04.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/opengl-renderer_04.png",
+              "alt": "opengl-renderer_04"
+            }
+          ],
+          "videos": [],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/opengl-renderer"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "vr-bezier-curve-extruder",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/vr-bezier-curve-extruder.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "A Unity plugin which allows a user to draw surfaces in VR."
+            },
+            {
+              "title": "Keywords:",
+              "details": "bezier-surfaces, unity, usability-testing, virtual-reality"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Berlin"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_01.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_01.png",
+              "alt": "bezier-curve-extruder_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_02.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_02.png",
+              "alt": "bezier-curve-extruder_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_03.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_03.png",
+              "alt": "bezier-curve-extruder_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_04.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_04.png",
+              "alt": "bezier-curve-extruder_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_05.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_05.png",
+              "alt": "bezier-curve-extruder_05"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_06.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_06.png",
+              "alt": "bezier-curve-extruder_06"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_07.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_07.png",
+              "alt": "bezier-curve-extruder_07"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_08.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_08.png",
+              "alt": "bezier-curve-extruder_08"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/bezier-curve-extruder_09.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/bezier-curve-extruder_09.png",
+              "alt": "bezier-curve-extruder_09"
+            }
+          ],
+          "videos": [
+            {
+              "src": "https://www.youtube.com/embed/6uHnSnAMX9w"
+            }
+          ],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/vr-bezier-curve-extruder"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "cubic-bezier-curve-showcase",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/bezier-curve.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "This is a showcase of the De Casteljau algorithm for presentation purposes. It is applied to a cubic Bézier curve."
+            },
+            {
+              "title": "Keywords:",
+              "details": "bezier-curve, computational-geometry, webgl"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Berlin"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "Website",
+              "href": "https://felixriehm.github.io/cubic-bezier-curve-showcase/index.html"
+            },
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/cubic-bezier-curve-showcase"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "ar-food-pong",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/ar-food-pong.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "A Unity AR game where you have to play Pong with food :)"
+            },
+            {
+              "title": "Keywords:",
+              "details": "augmented-reality, unity, vuforia"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Berlin"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/ar-food-pong"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "1d-height-field-fluid-webgl",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/programm_simulation.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "This is a 1D implementaion of Matthias Müllers Height Field Fluid algorithm presented at the Games Developers Conference 2008."
+            },
+            {
+              "title": "Keywords:",
+              "details": "physically-based-water-simulation, webgl"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Berlin"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/1d-height-field-fluid-webgl"
+            },
+            {
+              "title": "Website",
+              "href": "https://felixriehm.github.io/1d-height-field-fluid-webgl/index.html"
+            },
+            {
+              "title": "Documentation (PDF)",
+              "href": "https://static-files.felixriehm.de/pdf/Simulationsverfahren_von_Wasseroberflaechen.pdf"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "Graphen als Modelle für Gewebestrukturen",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/graphenmodelle.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Research"
+            },
+            {
+              "title": "Keywords:",
+              "details": "digital histopathology, voronoi diagram, fortunes sweep line algorithm, graph-based methods, delaunay triangulation"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Berlin"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "Documentation (PDF)",
+              "href": "https://static-files.felixriehm.de/pdf/Graphen als Modelle für Gewebestrukturen.pdf"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "Technisches Design von 2D Barcodes und dessen Auswirkung",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/qr_codes.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Research"
+            },
+            {
+              "title": "Keywords:",
+              "details": "QR codes, error detection and correction, image analysis"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Berlin"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "Documentation (PDF)",
+              "href": "https://static-files.felixriehm.de/pdf/Technisches_Design_von_2D_Barcodes_und_dessen_Auswirkung.pdf"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "ai-challenge-ants",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/ants.gif",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Ai bot for an ai programming contest where you have to fight ants."
+            },
+            {
+              "title": "Keywords:",
+              "details": "ai-programming, alpha-beta-algorithm, dijkstra-algorithm"
+            },
+            {
+              "title": "Where:",
+              "details": "HTWG Constance"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/antbot_001.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/antbot_001.png",
+              "alt": "ants_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/antbot_002.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/antbot_002.png",
+              "alt": "ants_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/antbot_003.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/antbot_003.png",
+              "alt": "ants_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/antbot_004.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/antbot_004.png",
+              "alt": "ants_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/antbot_005.png",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/antbot_005.png",
+              "alt": "ants_05"
+            }
+          ],
+          "videos": [],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/ai-challenge-ants"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "arduino-led-and-music-coffee-table",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/led_table.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Self-built coffee table that can play light shows, games and music. Controllable via various apps written in C#, F# and React that communicate with an Arduino via Bluetooth."
+            },
+            {
+              "title": "Keywords:",
+              "details": "app-development, arduino, bluetooth, c-language, embedded-systems"
+            },
+            {
+              "title": "Where:",
+              "details": "At home"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/lighttable_001.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/lighttable_001.jpg",
+              "alt": "lighttable_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/lighttable_002.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/lighttable_002.jpg",
+              "alt": "lighttable_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/lighttable_004.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/lighttable_004.jpg",
+              "alt": "lighttable_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/lighttable_005.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/lighttable_005.jpg",
+              "alt": "lighttable_05"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/lighttable_006.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/lighttable_006.jpg",
+              "alt": "lighttable_06"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/lighttable_007.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/lighttable_007.jpg",
+              "alt": "lighttable_07"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/lighttable_008.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/lighttable_008.jpg",
+              "alt": "lighttable_08"
+            }
+          ],
+          "videos": [],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/arduino-led-and-music-coffee-table"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "knapsack",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/knapsack.png",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "A solution to the knapsack 0/1 problem using local search"
+            },
+            {
+              "title": "Keywords:",
+              "details": "simulated-annealing"
+            },
+            {
+              "title": "Where:",
+              "details": "HTW Constance"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "GitHub",
+              "href": "https://github.com/felixriehm/knapsack"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "Arduino car",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/code/hero/motuino.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Built an arduino car with a sonar sensor which can be controlled via an app. It avoids obstacles automatically."
+            },
+            {
+              "title": "Keywords:",
+              "details": "Arduino platform, sonar sensor, obstacle avoidance"
+            },
+            {
+              "title": "Where:",
+              "details": "At home"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/motuino_001.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/motuino_001.jpg",
+              "alt": "motuino_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/motuino_002.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/motuino_002.jpg",
+              "alt": "motuino_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/motuino_003.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/motuino_003.jpg",
+              "alt": "motuino_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/code/view/motuino_004.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/code/thumbnails/motuino_004.jpg",
+              "alt": "motuino_04"
+            }
+          ],
+          "videos": [],
+          "links": [],
+          "about": ""
+        }
+      ]
+    }
+  ],
+  "friendsImages": [
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/1511565_671168186269469_1623905118_n.jpg",
+      "alt": "tattoo"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/2880px-Hochschule_Konstanz_Technik_Wirtschaft_und_Gestaltung_logo.svg_.png",
+      "alt": "HTWG Constance"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/NipponConnection_Logo-1.png",
+      "alt": "nippon"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/TheaterHTWG_Logo_S_01_WortBildmarke_horizontal-1024x512_versetzt2.jpg",
+      "alt": "theater"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/htw_berlin.png",
+      "alt": "HTW Berlin"
+    }
+  ]
+}

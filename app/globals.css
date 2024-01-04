@@ -1,27 +1,22 @@
+@import "../node_modules/viewerjs/dist/viewer.min.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* apparently this is not possible with tailwind
+https://github.com/tailwindlabs/tailwindcss/discussions/7444
+https://stackoverflow.com/questions/72663726/multiple-background-urls-repeat-and-size
+*/
+.background-custom-repeat {
+  background-repeat: no-repeat, repeat;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+details > summary {
+  list-style: none;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+details > summary::marker, /* Latest Chrome, Edge, Firefox */
+details > summary::-webkit-details-marker /* Safari */ {
+  display: none;
 }

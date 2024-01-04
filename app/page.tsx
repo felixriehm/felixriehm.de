@@ -1,112 +1,151 @@
-import Image from 'next/image'
+"use client"
+
+import {useSearchParams} from "next/navigation";
+import MetaData from "@/app/ui/metaData";
+import contentJson from "@/public/content.json";
+import contentJsonDev from "@/public/content_dev.json";
+import ExperienceCategory from "@/app/ui/experienceCategory";
+import {useEffect} from "react";
+import Viewer from 'viewerjs';
+import heroImage from "@/public/images/logo.svg";
+
+async function getData(isDevPage: boolean) {
+    const res = await fetch(`https://static-files.felixriehm.de/content${isDevPage ? '_dev': ''}.json`)
+
+    if (!res.ok) {
+        // This will activate the closest `error.js` Error Boundary
+        throw new Error('Failed to fetch data')
+    }
+
+    return res.json()
+}
+
+function initImageGalary(){
+    var galleries= document.querySelectorAll<HTMLElement>('.experience-gallery');
+    for (let i = 0; i < galleries.length; i++) {
+        new Viewer(galleries[i], {
+            url: 'data-original',
+            movable: false,
+            rotatable: false,
+            scalable: false,
+            title: false,
+            toggleOnDblclick: false,
+            tooltip: false,
+            zoomable: false,
+            zoomOnTouch: false,
+            zoomOnWheel: false
+        });
+    }
+}
+
+function initIntersectionObserver(){
+    const inViewport = (entries: any, observer: any) => {
+        entries.forEach((entry: any) => {
+
+            if(entry.boundingClientRect.top+document.documentElement.scrollTop <= document.documentElement.scrollTop) {
+                // when the page is reloaded and the target animation element is above browser view
+                entry.target.setAttribute('data-is-inviewport', '')
+            }
+
+            if(entry.intersectionRatio === 1.0) {
+                // normal case if you scroll down
+                entry.target.setAttribute('data-is-inviewport', '')
+            }
+
+            if(entry.intersectionRatio < 1.0 && entry.boundingClientRect.height +
+                entry.boundingClientRect.top+document.documentElement.scrollTop > document.documentElement.scrollTop + entry.rootBounds.height){
+                // scrolling up
+                entry.target.removeAttribute('data-is-inviewport')
+                if(entry.target.parentElement.tagName === "DETAILS") {
+                    entry.target.parentElement.removeAttribute('open')
+                }
+            }
+        });
+    };
+
+    function buildThresholdList() {
+        let thresholds = [];
+        let numSteps = 20;
+
+        for (let i = 1.0; i <= numSteps; i++) {
+            let ratio = i / numSteps;
+            thresholds.push(ratio);
+        }
+
+        thresholds.push(0);
+        return thresholds;
+    }
+
+    let rootMarginBottom = -40;
+    if (window.matchMedia('(min-width: 640px)').matches) {
+        rootMarginBottom = -70;
+    }
+
+    const obsOptions = {
+        // Default is null (Browser viewport). Set a specific parent element:
+        // root: null,
+        // add 40px inner "margin" area at which the observer starts to calculate:
+        rootMargin: `0px 0px ${rootMarginBottom}px 0px`,
+        // Default is 0.0 meaning the callback is called as soon 1 pixel is inside the viewport.
+        // Set to 1.0 to trigger a callback when 100% of the target element is inside the viewport,
+        // or i.e: 0.5 when half of the target element is visible:
+        threshold: buildThresholdList(),
+    }; //See: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options
+    const Obs = new IntersectionObserver(inViewport,obsOptions);
+
+    // Attach observer to every [data-inviewport] element:
+    document.querySelectorAll('[data-check-inviewport]').forEach(el => {
+        Obs.observe(el);
+    });
+}
 
 export default function Home() {
+    const searchParams = useSearchParams()
+    const devParameter = searchParams.get('dev')
+    let isDevPage = devParameter === ""
+    let data: WebpageContent.WebpageContent;
+
+    if(isDevPage){
+        data = contentJsonDev
+    } else {
+        data = contentJson
+    }
+
+    const categoryItems = data.experienceCategories.map((experienceCategory, index) =>
+        <ExperienceCategory key={index} experienceCategory={experienceCategory} isDevPage={isDevPage}></ExperienceCategory>
+    );
+
+    useEffect(() => {
+        (async function () {
+            initImageGalary()
+            initIntersectionObserver()
+        })();
+    }, [isDevPage]);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+    <main className={`${!isDevPage ? 'bg-[url("../public/images/background.jpg"),url("../public/images/lightpaperfibers.png")]' : 'bg-[url("../public/images/background_dev.jpg"),url("../public/images/dot-grid.png")]'} background-custom-repeat bg-[size:contain,_auto] bg-top flex justify-center pt-[max(83%,_302px)] md:pt-[min(33%,_440px)] sm:px-5`}>
+      <div className={`${!isDevPage ? 'rounded-6xl bg-[url("../public/images/lightpaperfibers.png")]' : 'bg-[url("../public/images/dot-grid.png")]'} bg-repeat pt-10 px-5 sm:px-10 w-full max-w-screen-xl`}>
+          <div className={`flex lg:justify-start justify-center gap-10 flex-wrap md:flex-nowrap mb-14`}>
+              <div className={`flex flex-col mt-[-66%] sm:mt-[-61%] md:mt-[-31%] lg:mt-[-30%] xl:mt-[-29%] w-full items-center gap-20`}>
+                  <div className={`w-full pl-5 pr-10 pt-10 md:px-5 md:pt-5 lg:px-10 lg:pt-10`}>
+                      {/*aspect square needs separate div container otherwise it will also incorporate the padding*/}
+                      <div
+                          className={`${!isDevPage ? 'rounded-2xl bg-felixriehm-green-400' : 'bg-felixriehm-blue-400'} relative aspect-square p-2 h-full w-full`}>
+                          <img src={data.avatar} alt={'avatar'}
+                               className={`h-full ${!isDevPage ? 'rounded-2xl' : ''}`}></img>
+                          <object className={'absolute h-[50%] bottom-[-15%] right-[-8%] rotate-[-20deg]'} id="about-hero-image-svg-object" data={heroImage.src}
+                                  type="image/svg+xml"></object></div>
+                  </div>
+                  <div className={`w-full max-w-[440px]`}>
+                    <MetaData isDevPage={isDevPage} metaData={data.metaData}></MetaData>
+                  </div>
+              </div>
+              <div className={`w-full flex items-center`}>
+                  <p className={'py-[72px] leading-loose first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:mr-3 first-letter:float-left'}>{data.about}</p>
+              </div>
+          </div>
+          <div className={'flex flex-col gap-14'}>
+              {categoryItems}
+          </div>
       </div>
     </main>
   )

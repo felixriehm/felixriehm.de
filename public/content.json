@@ -1,0 +1,666 @@
+{
+  "avatar": "https://static-files.felixriehm.de/images/avatar.png",
+  "heroImage": "https://static-files.felixriehm.de/images/logo.svg",
+  "about": "Felix is a computer scientist based in Germany. His unconventional story began at an early age coding games and other programs in his small bedroom at his parents place. For him coding was always a zen-like experience. Later he moved to Constance to pursue his passion for discovering and learning new ideas. While exploring the scientific horizon at the university, Felix still tried to find new experiences to stay open minded. He joined theater groups, grabbed every opportunity to volunteer and dig deep into literature. His interests in other fields are often reflected in his work. Felix´s work focuses on bringing life into digital experiences by incorporating emotional intelligence and scientific thinking.",
+  "metaData": [
+    {
+      "title": "Email",
+      "data": "mail@felixriehm.de",
+      "type": "mail"
+    },
+    {
+      "title": "Software projects",
+      "data": "https://felixriehm.de/?dev",
+      "type": "link"
+    },
+    {
+      "title": "Mastodon",
+      "data": "https://social.mpdl.mpg.de/@riehm/",
+      "type": "link"
+    }
+  ],
+  "experienceCategories": [
+    {
+      "title": "Theater",
+      "experiences": [
+        {
+          "title": "Ruhig Blut",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/theater/hero/blut.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Helped as a technical assistant to build the stage"
+            },
+            {
+              "title": "Role:",
+              "details": "Technical assistant"
+            },
+            {
+              "title": "Where:",
+              "details": "HTWG Constance Theater"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/blut_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/blut_01.jpg",
+              "alt": "blut_01.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/blut_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/blut_02.jpg",
+              "alt": "blut_02.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/blut_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/blut_03.jpg",
+              "alt": "blut_03.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/blut_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/blut_04.jpg",
+              "alt": "blut_04.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/blut_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/blut_05.jpg",
+              "alt": "blut_05.jpg"
+            }
+          ],
+          "videos": [],
+          "links": [],
+          "about": "The abyss is what our ensemble “RUHIG BLUT” holds interest for. Because these abysses function like a magnifier: You discover things which remained misunderstood before but now will be seen most sharply. So, what about this higher education system? How does a chairman of the examination board feel when he can’t allow a student to continue his studies anymore? What does a psychologist say about that? How to keep yourself awake? AND what happens when suddenly one’s imagination is cracking up and a weapon comes into play?"
+        },
+        {
+          "title": "Bedingungslos",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/theater/hero/bedingungslos.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Acted in multiple public performances. Played several songs during live performances."
+            },
+            {
+              "title": "Role:",
+              "details": "Actor and musician"
+            },
+            {
+              "title": "Where:",
+              "details": "HTWG Constance Theater"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/bedingungslos_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/bedingungslos_01.jpg",
+              "alt": "bedingungslos_01.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/bedingungslos_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/bedingungslos_02.jpg",
+              "alt": "bedingungslos_02.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/bedingungslos_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/bedingungslos_03.jpg",
+              "alt": "bedingungslos_03.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/bedingungslos_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/bedingungslos_04.jpg",
+              "alt": "bedingungslos_04.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/bedingungslos_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/bedingungslos_05.jpg",
+              "alt": "bedingungslos_05.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/bedingungslos_06.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/bedingungslos_06.jpg",
+              "alt": "bedingungslos_06.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/bedingungslos_07.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/bedingungslos_07.jpg",
+              "alt": "bedingungslos_07.jpg"
+            }
+          ],
+          "videos": [],
+          "links": [],
+          "about": "Sita is a beautiful princess. Rama is a hell of a person ( even if his name doesn’t really suggest it) and Ravana is the demon lord. They all want to possess Sita, but only Rama passes the challenge. Unfortunately, they won’t become king and queen but have to move into the woods (intrigue ahead!). Sita doesn’t quite like that, therefore our demon uses his chance and takes her to his island. Rama was not at all cool about that: showdown with explosions and monkeys and stuff."
+        },
+        {
+          "title": "Geschichten aus dem Jenseits",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/theater/hero/geschichten.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Acted in multiple public performances. Created and performed a lyrical dance."
+            },
+            {
+              "title": "Role:",
+              "details": "Actor and dancer"
+            },
+            {
+              "title": "Where:",
+              "details": "HTWG Constance Theater"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/geschichten_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/geschichten_01.jpg",
+              "alt": "geschichten_01.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/geschichten_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/geschichten_02.jpg",
+              "alt": "geschichten_02.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/geschichten_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/geschichten_03.jpg",
+              "alt": "geschichten_03.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/geschichten_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/geschichten_04.jpg",
+              "alt": "geschichten_04.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/geschichten_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/geschichten_05.jpg",
+              "alt": "geschichten_05.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/geschichten_06.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/geschichten_06.jpg",
+              "alt": "geschichten_06.jpg"
+            }
+          ],
+          "videos": [],
+          "links": [],
+          "about": "A queen rules her kingdom with the utmost severity. She wants to control everything and everyone - even the uncontrollable. Unfortunately, she can’t look beyond the borders of her kingdom, but there reigns her old rival, the dragon. So what to do?<br><br>Sure, you look for the seven most spirited heroes of the kingdom, offer them gold and silver, put the most dangerous weapon of all time in their hands and hope for success.</br><br>No sooner said than done – the Seven are quickly convinced and approach the dangerous search beyond. Once arrived, everything turns out to be different to what was expected. The instrument that allowed you to look beyond emerges as a deadly threat."
+        },
+        {
+          "title": "Wir sind dann mal hier",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/theater/hero/wirhier.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Acted in multiple public performances"
+            },
+            {
+              "title": "Role:",
+              "details": "Actor"
+            },
+            {
+              "title": "Where:",
+              "details": "Augenblick Theater Mannheim"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/wirhier_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/wirhier_01.jpg",
+              "alt": "wirhier_01.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/wirhier_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/wirhier_02.jpg",
+              "alt": "wirhier_02.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/wirhier_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/wirhier_03.jpg",
+              "alt": "wirhier_03.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/wirhier_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/wirhier_04.jpg",
+              "alt": "wirhier_04.jpg"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/theater/view/wirhier_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/theater/thumbnails/wirhier_05.jpg",
+              "alt": "wirhier_05.jpg"
+            }
+          ],
+          "videos": [],
+          "links": [],
+          "about": "An invitation to a dinner – and nobody knows which meal rules are valid. The result is a communicative balancing act (almost) with no speech, full of vain approaches and absurdly comical moments."
+        }
+      ]
+    },
+    {
+      "title": "Film",
+      "experiences": [
+        {
+          "title": "Bonbon",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/film/hero/bonbon.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Built props for set and actors. Restored and decorated film sets to tell a believable story."
+            },
+            {
+              "title": "Role:",
+              "details": "Production Design Trainee"
+            },
+            {
+              "title": "Where:",
+              "details": "Film University Babelsberg, Brandenburg"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/bonbon_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/bonbon_01.jpg",
+              "alt": "bonbon_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/bonbon_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/bonbon_02.jpg",
+              "alt": "bonbon_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/bonbon_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/bonbon_03.jpg",
+              "alt": "bonbon_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/bonbon_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/bonbon_04.jpg",
+              "alt": "bonbon_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/bonbon_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/bonbon_05.jpg",
+              "alt": "bonbon_05"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/bonbon_06.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/bonbon_06.jpg",
+              "alt": "bonbon_06"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/bonbon_07.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/bonbon_07.jpg",
+              "alt": "bonbon_07"
+            }
+          ],
+          "videos": [],
+          "links": [],
+          "about": ""
+        },
+        {
+          "title": "Liebe macht nass",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/film/hero/liebe.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Made six short films to promote the play"
+            },
+            {
+              "title": "Role:",
+              "details": "Film maker"
+            },
+            {
+              "title": "Where:",
+              "details": "HTWG Constance Theater"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/liebe_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/liebe_01.jpg",
+              "alt": "liebe_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/liebe_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/liebe_02.jpg",
+              "alt": "liebe_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/liebe_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/liebe_03.jpg",
+              "alt": "liebe_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/liebe_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/liebe_04.jpg",
+              "alt": "liebe_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/liebe_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/liebe_05.jpg",
+              "alt": "liebe_05"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/film/view/liebe_06.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/film/thumbnails/liebe_06.jpg",
+              "alt": "liebe_06"
+            }
+          ],
+          "videos": [
+            {
+              "src": "https://www.youtube.com/embed/2nFwckY1ri0"
+            },
+            {
+              "src": "https://www.youtube.com/embed/4g2xVNad2nk"
+            },
+            {
+              "src": "https://www.youtube.com/embed/iRCzy5jxbq4"
+            },
+            {
+              "src": "https://www.youtube.com/embed/8CMzQbH8lBE"
+            },
+            {
+              "src": "https://www.youtube.com/embed/99Qcawj7O4M"
+            }
+          ],
+          "links": [
+            {
+              "title": "Website",
+              "href": "https://nipponconnection.com/de"
+            }
+          ],
+          "about": "Moosbrugger and Amann are the most powerful family clans in the southern part of Baden in Constance. They dominate life and also hold a 600 years old public dispute.<br></br>On the occasion of the 10th anniversary of the thermal bath in Constance, the Amman family hosts a philharmonic charity concert to advertise one of their long-desired project: a concert hall for Constance. No question, once and for all the Amann family wants to make clear that they have the power and influence in their time-honored town.</br></br>Naturally, the Moosbruggers are not about to accept this. They go on the warpath and try hard to disrupt the event with everything they got. Their stance on a new concert hall is clear: Who needs a concert hall in this crowded town if we could spend the money for more living space?!</br></br>Roman, a young man from the Mossbrugger family and Julia from the Amann family are meeting at the charity event inside the thermal bath. Both, having no clue who they are facing, passionately fall in love with each other not knowing that the feud of their families is dominating the evening."
+        }
+      ]
+    },
+    {
+      "title": "Miscellaneous",
+      "experiences": [
+        {
+          "title": "Meetup.com events",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/misc/hero/meetup.jpeg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Planning and enjoying culture events with international people"
+            },
+            {
+              "title": "Role:",
+              "details": "Organisator and participant"
+            },
+            {
+              "title": "Where:",
+              "details": "Munich and the surrounding area"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/meetup_01.jpeg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/meetup_01.jpeg",
+              "alt": "meetup_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/meetup_02.jpeg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/meetup_02.jpeg",
+              "alt": "meetup_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/meetup_03.jpeg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/meetup_03.jpeg",
+              "alt": "meetup_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/meetup_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/meetup_04.jpg",
+              "alt": "meetup_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/meetup_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/meetup_05.jpg",
+              "alt": "meetup_05"
+            }
+          ],
+          "videos": [],
+          "links": [],
+          "about": "Everyone is welcome!!</br>We share our cuisine, games, music, art and language! Let's meet to understand more about the different cultures by experience! Let's get creative, let's cook, eat and drink, dance and draw, visit places! How ever Your culture represents!"
+        },
+        {
+          "title": "19th Japanese Film Festival",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/misc/hero/nippon.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Design, installation and maintenance of the interior"
+            },
+            {
+              "title": "Role:",
+              "details": "Interior Design"
+            },
+            {
+              "title": "Where:",
+              "details": "19th Japanese Film Festival, Frankfurt am Main"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/nippon_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/nippon_01.jpg",
+              "alt": "nippon_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/nippon_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/nippon_02.jpg",
+              "alt": "nippon_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/nippon_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/nippon_03.jpg",
+              "alt": "nippon_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/nippon_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/nippon_04.jpg",
+              "alt": "nippon_04"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/nippon_05.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/nippon_05.jpg",
+              "alt": "nippon_05"
+            }
+          ],
+          "videos": [],
+          "links": [
+            {
+              "title": "Website",
+              "href": "https://nipponconnection.com/de"
+            }
+          ],
+          "about": "Every year between early May and early June, the Nippon Connection Film Festival lets Frankfurt am Main shine in bright pink for six days. Nippon Connection is the biggest festival for Japanese film worldwide and offers more than 100 short and feature-length films, as well as exciting insights into the art of Japanese cinema. Numerous filmmakers and artists from Japan regularly attend the festival to present their works to a big audience. By having a diverse supporting program, the festival tries to incite people to discover and get to know more about the different facets of Japanese culture. Festival centers are located at Künstlerhaus Mousonturm and at Theater Willy Praml in der Naxoshalle."
+        },
+        {
+          "title": "Erasmus Student Network",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/misc/hero/esn.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Assisted in event and trip organizations (e.g. welcome party, pub rallyes, guided city tours, etc.)"
+            },
+            {
+              "title": "Role:",
+              "details": "PR Coordinator"
+            },
+            {
+              "title": "Where:",
+              "details": "ESN Heidelberg"
+            }
+          ],
+          "images": [
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/esn_01.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/esn_01.jpg",
+              "alt": "esn_01"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/esn_02.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/esn_02.jpg",
+              "alt": "esn_02"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/esn_03.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/esn_03.jpg",
+              "alt": "esn_03"
+            },
+            {
+              "src": "https://static-files.felixriehm.de/images/experience/misc/view/esn_04.jpg",
+              "thumbnail": "https://static-files.felixriehm.de/images/experience/misc/thumbnails/esn_04.jpg",
+              "alt": "esn_04"
+            }
+          ],
+          "videos": [
+            {
+              "src": "https://www.youtube.com/embed/TeSpHkLYSmE"
+            }
+          ],
+          "links": [
+            {
+              "title": "Website",
+              "href": "https://esn-germany.de"
+            }
+          ],
+          "about": "The Erasmus Student Network is Europe's largest student organization with sections distributed all over Europe. ESN is a non-profit organization operating on the local, national and international level. As part of this network, ESN Heidelberg was established in 2014 to bring ESN's vision to the beautiful student city of Heidelberg. ESN Heidelberg is therefore part of ESN Germany and part of ESN International.<br><br><u>What we do:</u><br>International studies can be a vibrant period of personal discovery and cultural understanding, and our mission is to facilitate and enrich this experience for all international students in Heidelberg. In this context, we organize events, trips, and volunteering opportunities to international students in Heidelberg, and provide help and guidance for newcomers. We strive to enrich international students' experience by helping to integrate them with locals and Heidelberg's international community.<br><br><u>Who we are:</u><br>Here in Heidelberg our team consists of German and international students living and promoting the ideas of integration and mobility to other German and international students. We work in close cooperation with the international office of the University of Heidelberg. As Local Erasmus Initiative (LEI) of the University of Heidelberg we are officially supported by the German Academic Exchange Service (DAAD)."
+        }
+      ]
+    },
+    {
+      "title": "Writing",
+      "experiences": [
+        {
+          "title": "Die Entstehung der Gebirge",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/writing/hero/writing.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Short story"
+            },
+            {
+              "title": "Role:",
+              "details": "Writer"
+            },
+            {
+              "title": "Where:",
+              "details": "At home"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "PDF",
+              "href": "https://static-files.felixriehm.de/pdf/Die-Entstehung-der-Gebirge.pdf"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "Maskenleid",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/writing/hero/writing.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Short story"
+            },
+            {
+              "title": "Role:",
+              "details": "Writer"
+            },
+            {
+              "title": "Where:",
+              "details": "At home"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "PDF",
+              "href": "https://static-files.felixriehm.de/pdf/Maskenleid.pdf"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "Ein notwendiger Versuch",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/writing/hero/writing.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Play"
+            },
+            {
+              "title": "Role:",
+              "details": "Writer"
+            },
+            {
+              "title": "Where:",
+              "details": "At home"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "PDF",
+              "href": "https://static-files.felixriehm.de/pdf/Ein-notwendiger-Versuch.pdf"
+            }
+          ],
+          "about": ""
+        },
+        {
+          "title": "Die Flucht",
+          "heroImage": "https://static-files.felixriehm.de/images/experience/writing/hero/writing.jpg",
+          "descriptions": [
+            {
+              "title": "What:",
+              "details": "Short story"
+            },
+            {
+              "title": "Role:",
+              "details": "Writer"
+            },
+            {
+              "title": "Where:",
+              "details": "At home"
+            }
+          ],
+          "images": [],
+          "videos": [],
+          "links": [
+            {
+              "title": "PDF",
+              "href": "https://static-files.felixriehm.de/pdf/Die-Flucht.pdf"
+            }
+          ],
+          "about": ""
+        }
+      ]
+    }
+  ],
+  "friendsImages": [
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/1511565_671168186269469_1623905118_n.jpg",
+      "alt": "tattoo"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/2880px-Hochschule_Konstanz_Technik_Wirtschaft_und_Gestaltung_logo.svg_.png",
+      "alt": "HTWG Constance"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/NipponConnection_Logo-1.png",
+      "alt": "nippon"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/TheaterHTWG_Logo_S_01_WortBildmarke_horizontal-1024x512_versetzt2.jpg",
+      "alt": "theater"
+    },
+    {
+      "src": "https://static-files.felixriehm.de/images/friends/htw_berlin.png",
+      "alt": "HTW Berlin"
+    }
+  ]
+}
