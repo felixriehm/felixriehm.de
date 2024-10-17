@@ -12,6 +12,9 @@ export const metadata: Metadata = {
             url: 'https://github.com/felixriehm'
         }
     ],
+    robots: {
+        index: false
+    }
 }
 
 const noto_sans_font = localFont(
