@@ -5,7 +5,7 @@
   "metaData": [
     {
       "title": "Email",
-      "data": "mail@felixriehm.de",
+      "data": "work@felixriehm.de",
       "type": "mail"
     },
     {
@@ -16,11 +16,6 @@
     {
       "title": "Other projects",
       "data": "https://felixriehm.de/",
-      "type": "link"
-    },
-    {
-      "title": "Mastodon",
-      "data": "https://social.mpdl.mpg.de/@riehm/",
       "type": "link"
     }
   ],
